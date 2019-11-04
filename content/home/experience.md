@@ -40,9 +40,9 @@ date_format = "Jan 2006"
   description = """
   * Thesis: ["Enzymatic limitations in _Saccharomyces cerevisiae_'s metabolism"](https://research.chalmers.se/publication/508870)
   * Teacher assistant in Systems Biology (2015-2017)
-  * Coordinator of Chalmers activities in EU Horizon 2020 project [DD-DeCaF](http://dd-decaf.eu/) (2016-2018)
+  * Coordinator of Chalmers activities in EU Horizon 2020 project (2016-2018)
   * Treasurer (2015-2017) and chair (2018) of the PhD student council
-  * Member of the Core Value Team, overseeing good working environment in the division (2015-2017)
+  * Member of the Core Value Team, overseeing the working environment (2015-2017)
   * Main supervisor: Prof. Jens Nielsen
   """
 
@@ -54,8 +54,8 @@ date_format = "Jan 2006"
   date_start = "2014-02-01"
   date_end = "2014-09-30"
   description = """
-  * Role: In charge of leading and coordinating laboratory and field activities
-  * Project between the university and winemaking industries: "Management of REDOX potential in the wine elaboration chain and its impact on quality" (FONDEF)
+  * Role: Leading and coordinating laboratory and field activities
+  * Project between the university and winemaking industries: _"Management of REDOX potential in the wine elaboration chain and its impact on quality"_
   * Main supervisor: Prof. Eduardo Agosin
   """
 
@@ -67,10 +67,10 @@ date_format = "Jan 2006"
   date_start = "2013-01-01"
   date_end = "2013-12-31"
   description = """
-    * Role: Optimizing the performance of an earthworm filter for wastewater treatment.
-    * Duties: Prototype development, mathematical modeling, experimental measurements and field supervision.
-    * Part-time job
-    * Main supervisor: Matías Sjögren (CEO)
+  * Role: Optimizing the performance of an earthworm filter for wastewater treatment
+  * Duties: Prototype development, mathematical modeling, experimental measurements, field supervision
+  * Part-time job
+  * Main supervisor: Matías Sjögren (CEO)
   """
 
 [[experience]]
