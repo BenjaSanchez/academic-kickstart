@@ -18,27 +18,85 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Postdoctoral Researcher"
+  company = "Technical University of Denmark"
+  company_url = "https://www.dtu.dk/english"
+  location = "Copenhagen, Denmark"
+  date_start = "2019-10-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  * Studying absolute proteomics datasets in the context of microbial metabolism
+  * Back-end developer for [DD-DeCaF](http://dd-decaf.eu/)
+  * Main supervisor: Prof. Nikolaus Sonnenschein
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Ph.D in Systems Biology"
+  company = "Chalmers University of Technology"
+  company_url = "https://www.chalmers.se/en/Pages/default.aspx"
+  location = "Gothenburg, Sweden"
+  date_start = "2014-10-01"
+  date_end = "2019-03-31"
+  description = """
+  * Thesis: ["Enzymatic limitations in _Saccharomyces cerevisiae_'s metabolism"](https://research.chalmers.se/publication/508870)
+  * Teacher assistant in Systems Biology (2015-2017)
+  * Coordinator of Chalmers activities in EU Horizon 2020 project [DD-DeCaF](http://dd-decaf.eu/) (2016-2018)
+  * Treasurer (2015-2017) and chair (2018) of the PhD student council
+  * Member of the Core Value Team, overseeing good working environment in the division (2015-2017)
+  * Main supervisor: Prof. Jens Nielsen
+  """
+
+[[experience]]
+  title = "Project Manager"
+  company = "Pontificia Universidad Católica de Chile"
+  company_url = "https://www.uc.cl/en"
+  location = "Santiago, Chile"
+  date_start = "2014-02-01"
+  date_end = "2014-09-30"
+  description = """
+  * Role: In charge of leading and coordinating laboratory and field activities
+  * Project between the university and winemaking industries: "Management of REDOX potential in the wine elaboration chain and its impact on quality" (FONDEF)
+  * Main supervisor: Prof. Eduardo Agosin
+  """
+
+[[experience]]
+  title = "Modeler and R&D Supervisor"
+  company = "Biofiltro S.P.A."
+  company_url = "http://biofiltro.com/es/"
+  location = "Santiago, Chile"
+  date_start = "2013-01-01"
+  date_end = "2013-12-31"
+  description = """
+    * Role: Optimizing the performance of an earthworm filter for wastewater treatment.
+    * Duties: Prototype development, mathematical modeling, experimental measurements and field supervision.
+    * Part-time job
+    * Main supervisor: Matías Sjögren (CEO)
+  """
+
+[[experience]]
+  title = "M.S. in Chemical and Bioprocess Engineering"
+  company = "Pontificia Universidad Católica de Chile"
+  company_url = "https://www.uc.cl/en"
+  location = "Santiago, Chile"
+  date_start = "2012-03-01"
+  date_end = "2014-01-31"
+  description = """
+  * Thesis: ["Development, calibration and validation of a dynamic genome-scale metabolic model of _S. cerevisiae_"](https://repositorio.uc.cl/handle/11534/2965)
+  * Main supervisor: Prof. Eduardo Agosin
+  """
+
+[[experience]]
+  title = "B.S. in Engineering"
+  company = "Pontificia Universidad Católica de Chile"
+  company_url = "https://www.uc.cl/en"
+  location = "Santiago, Chile"
+  date_start = "2007-03-01"
+  date_end = "2012-07-31"
+  description = """
+  * Teacher assistant in Calculus I, Calculus II, Thermodynamics, Transport Phenomena, Microbial Biotechnology and Chemical Process Design.
+  * Co-designer of the biological engineering major (2011)
+  * University delegate in the Chilean association of biotechnology engineering students (2011-2012)
+  * Research coordinator in the university chapter of AIChE (2012)
+  """
 
 +++
