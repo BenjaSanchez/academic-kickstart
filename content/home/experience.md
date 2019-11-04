@@ -42,7 +42,7 @@ date_format = "Jan 2006"
   * Teacher assistant in Systems Biology (2015-2017)
   * Coordinator of Chalmers activities in EU Horizon 2020 project (2016-2018)
   * Treasurer (2015-2017) and chair (2018) of the PhD student council
-  * Member of the Core Value Team, overseeing the working environment (2015-2017)
+  * Member of the Core Value Team, overseeing working environment (2015-2017)
   * Main supervisor: Prof. Jens Nielsen
   """
 
@@ -67,7 +67,7 @@ date_format = "Jan 2006"
   date_start = "2013-01-01"
   date_end = "2013-12-31"
   description = """
-  * Role: Optimizing the performance of an earthworm filter for wastewater treatment
+  * Role: Optimizing an earthworm filter for wastewater treatment
   * Duties: Prototype development, mathematical modeling, experimental measurements, field supervision
   * Part-time job
   * Main supervisor: Matías Sjögren (CEO)
