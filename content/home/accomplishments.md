@@ -19,19 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = ""
+  organization = "International Metabolic Engineering Society (IMES)"
   organization_url = "https://www.aiche.org/sbe/conferences/conference-on-constraint-based-reconstruction-and-analysis-cobra/2015"
-  title = "3rd prize in poster competition of the IV COBRA conference"
+  title = "3rd prize in the IV COBRA conference's poster competition"
   url = ""
   certificate_url = ""
   date_start = "2015-09-16"
   date_end = ""
-  description = "IV Conference on Constraint-Based Reconstruction and Analysis (COBRA), organized in Heidelberg, Germany"
+  description = """
+  * IV Conference on Constraint-Based Reconstruction and Analysis (COBRA)
+  * Organized in Heidelberg, Germany
+  """
 
 [[item]]
   organization = "CONICYT"
   organization_url = "https://www.conicyt.cl/"
-  title = "PhD Scholarship CONICYT #6222/2014"
+  title = "PhD Scholarship CONICYT #6222 / 2014"
   url = ""
   certificate_url = ""
   date_start = "2014-10-01"
@@ -56,7 +59,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2013-04-01"
   date_end = ""
-  description = "Awarded yearly to one student of the chemical and bioprocess engineering Msc program"
+  description = "Awarded yearly to one student of the Msc program"
 
 [[item]]
   organization = "Pontificia Universidad Católica de Chile"
