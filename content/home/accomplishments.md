@@ -27,6 +27,7 @@ date_format = "Jan 2006"
   date_start = "2015-09-16"
   date_end = ""
   description = """
+  
   * IV Conference on Constraint-Based Reconstruction and Analysis (COBRA)
   * Organized in Heidelberg, Germany
   """
