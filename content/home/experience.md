@@ -31,7 +31,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Ph.D in Systems Biology"
+  title = "PhD in Systems Biology"
   company = "Chalmers University of Technology"
   company_url = "https://www.chalmers.se/en/Pages/default.aspx"
   location = "Gothenburg, Sweden"
@@ -74,7 +74,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "M.S. in Chemical and Bioprocess Engineering"
+  title = "MSc in Chemical and Bioprocess Engineering"
   company = "Pontificia Universidad Católica de Chile"
   company_url = "https://www.uc.cl/en"
   location = "Santiago, Chile"
@@ -86,7 +86,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "B.S. in Engineering"
+  title = "BSc in Engineering"
   company = "Pontificia Universidad Católica de Chile"
   company_url = "https://www.uc.cl/en"
   location = "Santiago, Chile"
