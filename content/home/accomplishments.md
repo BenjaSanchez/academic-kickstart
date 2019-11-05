@@ -26,11 +26,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2015-09-16"
   date_end = ""
-  description = """
-  IV Conference on Constraint-Based Reconstruction and Analysis (COBRA)
-  
-  Organized in Heidelberg, Germany
-  """
+  description = "IV Conference on Constraint-Based Reconstruction and Analysis (COBRA), organized in Heidelberg, Germany"
 
 [[item]]
   organization = "CONICYT"
