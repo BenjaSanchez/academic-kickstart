@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """
   * Studying absolute proteomics datasets in the context of microbial metabolism
   * Back-end developer for [DD-DeCaF](http://dd-decaf.eu/)
-  * Main supervisor: Prof. Nikolaus Sonnenschein
+  * Main supervisor: [Prof. Nikolaus Sonnenschein](https://www.dtu.dk/english/service/phonebook/person?id=87972&tab=1)
   """
 
 [[experience]]
@@ -43,7 +43,7 @@ date_format = "Jan 2006"
   * Coordinator of Chalmers activities in EU Horizon 2020 project (2016-2018)
   * Treasurer (2015-2017) and chair (2018) of the PhD student council
   * Member of the Core Value Team, overseeing working environment (2015-2017)
-  * Main supervisor: Prof. Jens Nielsen
+  * Main supervisor: [Prof. Jens Nielsen](https://bioinnovationinstitute.com/team/jens-nielsen/)
   """
 
 [[experience]]
@@ -56,7 +56,7 @@ date_format = "Jan 2006"
   description = """
   * Role: Leading and coordinating laboratory and field activities
   * Project between the university and winemaking industries: _"Management of REDOX potential in the wine elaboration chain and its impact on quality"_
-  * Main supervisor: Prof. Eduardo Agosin
+  * Main supervisor: [Prof. Eduardo Agosin](https://www.ing.uc.cl/en/academicos-e-investigadores/eduardo-agosin-trumper/)
   """
 
 [[experience]]
@@ -70,7 +70,7 @@ date_format = "Jan 2006"
   * Role: Optimizing an earthworm filter for wastewater treatment
   * Duties: Prototype development, mathematical modeling, experimental measurements, field supervision
   * Part-time job
-  * Main supervisor: Matías Sjögren (CEO)
+  * Main supervisor: [Matías Sjögren (CEO)](https://www.linkedin.com/in/matias-sjogren-023a9a12/)
   """
 
 [[experience]]
@@ -82,7 +82,7 @@ date_format = "Jan 2006"
   date_end = "2014-01-31"
   description = """
   * Thesis: ["Development, calibration and validation of a dynamic genome-scale metabolic model of _S. cerevisiae_"](https://repositorio.uc.cl/handle/11534/2965)
-  * Main supervisor: Prof. Eduardo Agosin
+  * Main supervisor: [Prof. Eduardo Agosin](https://www.ing.uc.cl/en/academicos-e-investigadores/eduardo-agosin-trumper/)
   """
 
 [[experience]]

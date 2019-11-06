@@ -61,7 +61,7 @@ social:
   link: https://scholar.google.se/citations?user=afIK8dMAAAAJ&hl=en
 - icon: linkedin
   icon_pack: fab
-  link: www.linkedin.com/in/benjasanchez    
+  link: https://www.linkedin.com/in/benjasanchez    
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/benjasanchez
