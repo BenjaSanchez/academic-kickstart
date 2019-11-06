@@ -14,10 +14,10 @@ subtitle = ""
 #
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
-Lab experience:
-  * Cellular biology
-  * Fermentation science
-  * Chemical analysis (HPLC)
+# Lab experience:
+#   * Cellular biology
+#   * Fermentation science
+#   * Chemical analysis (HPLC)
 
 [[feature]]
   icon = "chart-line"

@@ -14,17 +14,17 @@ subtitle = ""
 #
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
-* Computational experience:
-  * Dynamic modeling
-  * Simulink
-  * Metabolic modeling
-  * Linear and non-linear optimization
-  * Model evaluation
-  * Statistics
-  * Proteomics analysis
-  * Version control (Git, GitHub)
-  * Continuous integration (Travis)
-  * reproducible research (R Markdown, Zenodo); MS Office; Illustrator.
+# * Computational experience:
+#   * Dynamic modeling
+#   * Simulink
+#   * Metabolic modeling
+#   * Linear and non-linear optimization
+#   * Model evaluation
+#   * Statistics
+#   * Proteomics analysis
+#   * Version control (Git, GitHub)
+#   * Continuous integration (Travis)
+#   * reproducible research (R Markdown, Zenodo); MS Office; Illustrator.
 
 [[feature]]
   icon = "chart-line"
