@@ -49,16 +49,23 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/benjasanchez
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.se/citations?user=afIK8dMAAAAJ&hl=en
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org"
 - icon: github
   icon_pack: fab
   link: https://github.com/BenjaSanchez
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Benjamin_Sanchez3
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.se/citations?user=afIK8dMAAAAJ&hl=en
+- icon: linkedin
+  icon_pack: fab
+  link: www.linkedin.com/in/benjasanchez    
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/benjasanchez
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
