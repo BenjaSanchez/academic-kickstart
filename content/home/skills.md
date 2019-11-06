@@ -6,7 +6,6 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Skills"
-subtitle = ""
 
 # Showcase personal skills or business features.
 #
@@ -14,7 +13,7 @@ subtitle = ""
 #
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
-Programming languages:
+subtitle = "Programming languages:"
 
 [[feature]]
   icon = "python"
@@ -30,11 +29,11 @@ Programming languages:
 
 [[feature]]
   icon = "laptop-code"
-  icon_pack = "fab"
+  icon_pack = "fas"
   name = "Matlab"
   description = ""
 
-Spoken languages:
+subtitle = "Spoken languages:"
 
 [[feature]]
   icon = "language"
@@ -46,7 +45,7 @@ Spoken languages:
   icon = "language"
   icon_pack = "fas"
   name = "Spanish"
-  description = "native"
+  description = "native speaker"
 
 [[feature]]
   icon = "language"
