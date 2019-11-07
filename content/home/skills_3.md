@@ -2,11 +2,11 @@
 # A Skills section created with the Featurette widget.
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 32  # Order that this section will appear.
 
-title = ""
-subtitle = ""
+title = " "
+subtitle = "Lab experience:"
 
 # Showcase personal skills or business features.
 #
@@ -14,15 +14,16 @@ subtitle = ""
 #
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
-# Lab experience:
-#   * Cellular biology
-#   * Fermentation science
-#   * Chemical analysis (HPLC)
+[[feature]]
+  icon = "wine-bottle"
+  icon_pack = "fas"
+  name = "Fermentation Science"
+  description = "Laboratory & Industrial Scales"
 
 [[feature]]
-  icon = "chart-line"
+  icon = "chart-bar"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"
+  name = "Analytics"
+  description = "HPLC"
 
 +++

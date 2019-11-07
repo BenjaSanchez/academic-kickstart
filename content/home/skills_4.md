@@ -18,18 +18,18 @@ subtitle = "Spoken languages:"
   icon = "language"
   icon_pack = "fas"
   name = "English"
-  description = "proficient"
+  description = "Full Proficiency"
 
 [[feature]]
   icon = "language"
   icon_pack = "fas"
   name = "Spanish"
-  description = "native speaker"
+  description = "Native speaker"
 
 [[feature]]
   icon = "language"
   icon_pack = "fas"
   name = "Swedish"
-  description = "basic"
+  description = "Basic"
 
 +++
