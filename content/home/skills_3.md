@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 32  # Order that this section will appear.
 
 title = " "
-subtitle = "Lab experience:"
+subtitle = "Lab Experience:"
 
 # Showcase personal skills or business features.
 #
@@ -25,5 +25,11 @@ subtitle = "Lab experience:"
   icon_pack = "fas"
   name = "Analytics"
   description = "HPLC"
+
+[[feature]]
+  icon = "dna"
+  icon_pack = "fas"
+  name = "Cellular Biology"
+  description = "Mammalian Cell Lines"
 
 +++

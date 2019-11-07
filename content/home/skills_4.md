@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 34  # Order that this section will appear.
 
 title = " "
-subtitle = "Spoken languages:"
+subtitle = "Spoken Languages:"
 
 # Showcase personal skills or business features.
 #

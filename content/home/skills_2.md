@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 31  # Order that this section will appear.
 
 title = " "
-subtitle = "Computational experience:"
+subtitle = "Computational Experience:"
 
 # Showcase personal skills or business features.
 #
@@ -15,7 +15,7 @@ subtitle = "Computational experience:"
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "chart-network"
+  icon = "project-diagram"
   icon_pack = "fas"
   name = "Metabolic Modeling"
   description = "COBRA, RAVEN, cobrapy"
@@ -33,10 +33,10 @@ subtitle = "Computational experience:"
   description = "Linear & Non-Linear"
 
 [[feature]]
-  icon = "chart-scatter"
+  icon = "brain"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "R, python"
+  name = "Big Data"
+  description = "Statistics"
 
 [[feature]]
   icon = "chart-bar"
