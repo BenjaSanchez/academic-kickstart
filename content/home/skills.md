@@ -3,10 +3,10 @@
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 31  # Order that this section will appear.
+weight = 30  # Order that this section will appear.
 
-title = " "
-subtitle = "Computational Experience:"
+title = "Skills"
+subtitle = ""
 
 # Showcase personal skills or business features.
 #
@@ -15,39 +15,39 @@ subtitle = "Computational Experience:"
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "project-diagram"
+  icon = "laptop-code"
   icon_pack = "fas"
-  name = "Metabolic Modeling"
-  description = "COBRA, RAVEN, cobrapy"
+  name = "Programming Languages"
+  description = "Python, R, Matlab"
 
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Dynamic Modeling"
-  description = "Matlab, Simulink"
-
-[[feature]]
-  icon = "calculator"
-  icon_pack = "fas"
-  name = "Optimization Software"
-  description = "Linear & Non-Linear"
+  name = "Mathematical Modeling"
+  description = "Metabolic Models, ODEs, Network Analysis"
 
 [[feature]]
   icon = "brain"
   icon_pack = "fas"
   name = "Big Data"
-  description = "Statistics"
-
-[[feature]]
-  icon = "chart-bar"
-  icon_pack = "fas"
-  name = "Proteomics Analysis"
-  description = "SILAC, iBAQ"
+  description = "Proteomics, Transcriptomics"
 
 [[feature]]
   icon = "git-alt"
   icon_pack = "fab"
   name = "Software Development"
   description = "Version Control, CI, Containers"
+
+[[feature]]
+  icon = "flask"
+  icon_pack = "fas"
+  name = "Lab Experience"
+  description = "Fermentation Science, HPLC, Cellular Biology"
+
+[[feature]]
+  icon = "language"
+  icon_pack = "fas"
+  name = "Spoken languages"
+  description = "English (full proficiency), Spanish (native speaker), Swedish (basic)"
 
 +++
