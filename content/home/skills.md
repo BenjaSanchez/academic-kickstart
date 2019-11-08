@@ -27,16 +27,16 @@ subtitle = ""
   description = "Metabolic Models, ODEs, Network Analysis"
 
 [[feature]]
-  icon = "brain"
-  icon_pack = "fas"
-  name = "Big Data"
-  description = "Proteomics, Transcriptomics"
-
-[[feature]]
   icon = "git-alt"
   icon_pack = "fab"
   name = "Software Development"
   description = "Version Control, CI, Containers"
+
+[[feature]]
+  icon = "brain"
+  icon_pack = "fas"
+  name = "Big Data"
+  description = "Proteomics, Transcriptomics"
 
 [[feature]]
   icon = "flask"
@@ -47,7 +47,11 @@ subtitle = ""
 [[feature]]
   icon = "language"
   icon_pack = "fas"
-  name = "Spoken languages"
-  description = "English (full proficiency), Spanish (native speaker), Swedish (basic)"
+  name = "Spoken Languages"
+  description = """
+  * English (full proficiency)
+  * Spanish (native speaker)
+  * Swedish (basic)
+  """
 
 +++
