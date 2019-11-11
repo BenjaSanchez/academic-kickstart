@@ -82,4 +82,4 @@ email: ""
 # - Visitors
 ---
 
-Hi! I'm Ben, a computational biologist passionate about understanding better biology using math and computers. I'm currently located in Copenhagen, Denmark, working as a postdoctoral researcher in DTU. Nice to meet you!
+I'm a computational biologist passionate about understanding better biology using math and computers. I'm currently located in Copenhagen, Denmark, working as a postdoctoral researcher in DTU. Nice to meet you!
