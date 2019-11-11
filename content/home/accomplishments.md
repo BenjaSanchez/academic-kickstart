@@ -18,15 +18,6 @@ date_format = "Jan 2006"
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-[[item]]
-  organization = "International Metabolic Engineering Society (IMES)"
-  organization_url = "https://www.aiche.org/sbe/conferences/conference-on-constraint-based-reconstruction-and-analysis-cobra/2015"
-  title = "3rd prize in the IV COBRA conference's poster competition"
-  url = ""
-  certificate_url = ""
-  date_start = "2015-09-16"
-  date_end = ""
-  description = "IV Conference on Constraint-Based Reconstruction and Analysis (COBRA), organized in Heidelberg, Germany"
 
 [[item]]
   organization = "CONICYT"
