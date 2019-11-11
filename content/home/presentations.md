@@ -23,7 +23,6 @@ date_format = "Jan 2006"
   title = "Reconstruction Workshop for Genome-Scale Modeling of Fish"
   url = ""
   date_start = "2019-04-08"
-  date_end = "2019-04-10"
   description = "Invited speaker: _Version-controlled GEMs_"
 
 [[item]]
@@ -31,31 +30,27 @@ date_format = "Jan 2006"
   title = "V Conference on Constraint-Based Reconstruction and Analysis (COBRA)"
   url = "https://www.aiche.org/sbe/conferences/conference-on-constraint-based-reconstruction-and-analysis-cobra/2018"
   date_start = "2018-10-14"
-  date_end = "2018-10-16"
   description = "Oral presentation: _yeast-GEM: reviving the consensus genome-scale model of S. cerevisiae as a standard in the community_"
 
 [[item]]
   organization = "Munich, Germany"
-  title = "XII Metabolic Engineering conference (ME-12)"
+  title = "XII Metabolic Engineering Conference (ME-12)"
   url = "https://www.aiche.org/sbe/conferences/metabolic-engineering-conference/2018"
   date_start = "2018-06-24"
-  date_end = "2018-06-28"
   description = "Poster presentation: _The Consensus Genome-Scale Model of Yeast & Constraints on Lipid Metabolism_"
 
 [[item]]
   organization = "Wailea, U.S.A."
-  title = "VI Winter quantitative biology conference (Q-Bio)"
+  title = "VI Winter Quantitative Biology Conference (Q-Bio)"
   url = "https://w-qbio.org/2018/"
   date_start = "2018-02-22"
-  date_end = "2018-02-25"
   description = "Poster presentation: _Enzyme usage in yeast during stress_"
 
 [[item]]
   organization = "Lyngby, Denmark"
-  title = "Center for Biosustainability (CfB) annual meeting"
+  title = "Center for Biosustainability (CfB) Annual Meeting"
   url = "https://www.biosustain.dtu.dk/"
   date_start = "2016-09-28"
-  date_end = "2016-09-29"
   description = "Oral presentation: _GECKO: Enhancing a genome-scale model with enzymatic constraints_"
 
 [[item]]
@@ -63,7 +58,6 @@ date_format = "Jan 2006"
   title = "XVII International Conference on Systems Biology (ICSB)"
   url = "https://ec.europa.eu/research/index.cfm?pg=events&eventcode=21DB903C-F5CF-497D-4083F667ED9790A6"
   date_start = "2016-09-16"
-  date_end = "2016-09-20"
   description = "Poster presentation: _Yeast genome scale modeling with enzyme constraints_"
 
 [[item]]
@@ -71,7 +65,6 @@ date_format = "Jan 2006"
   title = "XI Metabolic Engineering Conference (ME-11)"
   url = "https://www.aiche.org/sbe/conferences/metabolic-engineering-conference/2016"
   date_start = "2016-06-26"
-  date_end = "2016-06-30"
   description = "Poster presentation: _How much is it? Predicting enzyme costs with a genome scale model of yeast: applications to metabolic engineering_"
 
 [[item]]
@@ -79,7 +72,6 @@ date_format = "Jan 2006"
   title = "IV Conference on Constraint-Based Reconstruction and Analysis (COBRA)"
   url = "https://www.aiche.org/sbe/conferences/conference-on-constraint-based-reconstruction-and-analysis-cobra/2015"
   date_start = "2015-09-16"
-  date_end = "2015-09-18"
   description = "Poster presentation: _Expanding a yeast genome scale model to account for enzymatic limitations_ (awarded 3rd prize in the poster competition)"
 
 [[item]]
@@ -87,7 +79,6 @@ date_format = "Jan 2006"
   title = "XI International Conference on Pathways, Networks and Systems Medicine"
   url = "https://www.aegeanconferences.org/src/App/conferences/view/98"
   date_start = "2015-06-24"
-  date_end = "2015-06-29"
   description = "Poster presentation: _Reconciling proteomic data into genome scale models_"
 
 [[item]]
@@ -95,7 +86,6 @@ date_format = "Jan 2006"
   title = "LXXXII Meeting of the Chilean Mathematical Society"
   url = "https://sites.google.com/a/u.uchile.cl/somachi2013/"
   date_start = "2013-11-09"
-  date_end = "2013-11-07"
   description = "Oral presentation: _Reparametrización de un modelo dinámico del metabolismo celular de S. cerevisiae_"
 
 [[item]]
@@ -103,7 +93,6 @@ date_format = "Jan 2006"
   title = "I Cell Factories and Biosustainability Conference"
   url = "https://cph-bioscience.com/en/events/cell-factories-biosustainability-1"
   date_start = "2013-05-05"
-  date_end = "2013-05-08"
   description = "Poster presentation: _Reparameterization analysis of a S. cerevisiae dynamic genome-scaled metabolic model_"
 
 [[item]]
@@ -111,7 +100,6 @@ date_format = "Jan 2006"
   title = "VI Chilean Conference of Chemical Engineering Students"
   url = "http://ingenieria.uchile.cl/vi_coneiq_2012_quotingenier_a_qu_mica_desaf_os_y_oportunidades_en_la_zona_centralquot"
   date_start = "2012-10-23"
-  date_end = "2012-10-26"
   description = "Oral presentation: _Procedimiento iterativo heurístico de reparametrización de modelos dinámicos en procesos químicos y biológicos_"
 
 [[item]]
@@ -119,7 +107,6 @@ date_format = "Jan 2006"
   title = "VII Chilean Meeting of Biotechnology Engineering Students"
   url = "https://issuu.com/iconeib2012/docs/libro_de_resumenes_iconeib_2012_antofagasta_chile"
   date_start = "2012-10-17"
-  date_end = "2012-10-19"
   description = "Poster presentation: _Modelación metabólica dinámica a escala genómica para la producción de terpenos en S. cerevisiae_"
 
 [[item]]
@@ -127,7 +114,6 @@ date_format = "Jan 2006"
   title = "XXV Interamerican Conference of Chemical Engineering"
   url = "https://www.cmcevent.com/portafolio/xxv-congreso-interamericano-de-ingenieria-quimica-y-xviii-congreso-chileno-de-ingenieria-quimica/?lang=en"
   date_start = "2011-11-14"
-  date_end = "2011-11-17"
   description = "Poster presentation: _Técnicas para el estudio de la diferenciación celular en progenitores musculares adultos: aplicaciones a la ingeniería de tejidos y proyecciones_"
 
 [[item]]
@@ -135,7 +121,6 @@ date_format = "Jan 2006"
   title = "VI Chilean Meeting of Biotechnology Engineering Students"
   url = "http://biotecuchile.blogspot.com/2011/04/sobre-vi-eneib-ano-2011.html"
   date_start = "2011-08-23"
-  date_end = "2011-08-25"
   description = "Oral presentation: _Estudio de la Diferenciación de Células Progenitoras Musculares y proyecciones para la Ingeniería de Tejidos_"
 
 +++
