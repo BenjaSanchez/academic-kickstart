@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Construction of robust dynamic genome-scale metabolic model structures of _Saccharomyces cerevisiae_ through iterative re-parameterization"
+title: "Construction of robust dynamic genome-scale metabolic model structures of Saccharomyces cerevisiae through iterative re-parameterization"
 authors:
 - admin
 - José R. Pérez-Correa
@@ -20,9 +20,9 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Metabolic Engineering"
-publication_short: ""
+publication_short: "Met. Eng."
 
-abstract: ""
+abstract: "This was the publication that came out of my master thesis, and my first ever published paper. In it we present an algorithm for finding the best combination of kinetic parameters in a dynamic flux balance analysis (dFBA) model, and its implementation for _S. cerevisiae_ (RY-dFBA). We show that by following the algorithm we can get simple models (with only 5-6 parameters to estimate) that are easy to tune and predict well across different experimental conditions. We also show that consumption/production kinetics are the most relevant parameters to look into when calibrating these models."
 
 # Summary. An optional shortened abstract.
 summary: "An algorithm for improving dFBA predictions and its implementation in yeast"
