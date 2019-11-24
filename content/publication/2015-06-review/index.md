@@ -1,13 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Construction of robust dynamic genome-scale metabolic model structures of Saccharomyces cerevisiae through iterative re-parameterization"
+title: "Genome scale models of yeast: towards standardized evaluation and consistent omic integration"
 authors:
 - admin
-- José R. Pérez-Correa
-- Eduardo Agosin
-date: "2014-07-19"
-doi: "10.1016/j.ymben.2014.07.004"
+- Jens Nielsen
+date: "2015-06-09"
+doi: "10.1039/c5ib00083a"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: {{ .Date }}
@@ -19,17 +18,16 @@ doi: "10.1016/j.ymben.2014.07.004"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Metabolic Engineering"
+publication: "Integrative Biology"
 publication_short: ""
 
-abstract: "This was the publication that came out of my master thesis, and my first ever published paper. In it we present an algorithm for finding the best combination of kinetic parameters in a dynamic flux balance analysis (dFBA) model, and its implementation for _S. cerevisiae_ (RY-dFBA). We show that by following the algorithm we can get simple models (with only 5-6 parameters to estimate) that are easy to tune and predict well across different experimental conditions. We also show that consumption/production kinetics are the most relevant parameters to look into when calibrating these models."
+abstract: "In this review we cover the genome-scale modeling (GEM) technique and how it has been applied in _Saccharomyces cerevisiae_. We focus on different ways of evaluating model quality, and different ways of integrating omics data in them. Writing it was a great way for me to study the field and find areas that had not been very explored (e.g. integration of proteomics data)."
 
 # Summary. An optional shortened abstract.
-summary: "An algorithm for improving dFBA predictions and its implementation in yeast."
+summary: "A review on genome-scale modeling of _S. cerevisiae_"
 
 tags:
 - GEMs
-- kinetics
 - yeast
 categories: []
 featured: false
@@ -42,9 +40,9 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
-url_code: https://github.com/BenjaSanchez/RY-dFBA
-url_dataset: https://github.com/BenjaSanchez/RY-dFBA/blob/master/main/data/DATA.xls
+url_pdf: https://www.researchgate.net/publication/278160443_Genome_scale_models_of_yeast_Towards_standardized_evaluation_and_consistent_omic_integration
+url_code:
+url_dataset:
 url_poster:
 url_project:
 url_slides:
@@ -55,7 +53,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Iterative reparameterization algorithm of kinetic parameters. Adapted from the original publication: https://www.doi.org/10.1016/j.ymben.2014.07.004"
+  caption: "Model size increase in GEMs across the years. Taken from the original publication: https://www.doi.org/10.1039/c5ib00083a"
   focal_point: ""
   preview_only: false
 
