@@ -55,7 +55,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "ry-dfba.png"
+  caption: "featured.png"
   focal_point: ""
   preview_only: false
 
