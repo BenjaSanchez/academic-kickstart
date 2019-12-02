@@ -24,7 +24,7 @@ publication_types: ["2"]
 publication: "Industrial & Engineering Chemistry Research"
 publication_short: ""
 
-abstract: "This publication was the result of a research project conducted in the last year of my bachelor's. In it we address a common problem in parameter estimation of bioreactor models: as they tend to have many kinetic parameters, for some of these parameters it is challenging to get proper estimates, as they will have either low sensitivity (i.e. a low impact in the model) and/or low significance (i.e. too much variability in their estimation). Here we present HIPPO, an Heuristic Iterative Procedure for Parameter Optimization, that finds sets of parameters free of these problems. We show that HIPPO works well in two case studies: A microalgal fed-batch bioreactor model and a solid substrate fermentation model."
+abstract: "This publication was the result of a research project conducted in the last year of my bachelor's. In it we address a common problem in parameter estimation of bioreactor models: as they tend to have many kinetic parameters, for some of these parameters it is challenging to get proper estimates, as they will have either low sensitivity (i.e. a low impact in the model) and/or low significance (i.e. too much variability in their estimation). Here we present HIPPO, an Heuristic Iterative Procedure for Parameter Optimization, which finds sets of parameters free of these problems. We show that HIPPO works well in two case studies: A microalgal fed-batch bioreactor model and a solid substrate fermentation model."
 
 # Summary. An optional shortened abstract.
 summary: "A method for evaluating kinetic parameters in bioreactor models."

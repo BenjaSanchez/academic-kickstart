@@ -21,7 +21,7 @@ publication_types: ["2"]
 publication: "Integrative Biology"
 publication_short: ""
 
-abstract: "In this review we cover the genome-scale modeling (GEM) technique and how it has been applied in _Saccharomyces cerevisiae_. We focus on different ways of evaluating model quality, and different ways of integrating omics data in them. Writing it was a great way for me to study the field and find areas that had not been very explored (e.g. integration of proteomics data)."
+abstract: "In this review we cover the genome-scale modeling (GEM) technique and how it has been applied in _Saccharomyces cerevisiae_. We focus on different ways of evaluating model quality, and different ways of integrating omics data in them. Writing it was a great way for me to study the field at the beginning of my PhD, and find areas that had not been very much explored (e.g. integration of proteomics data)."
 
 # Summary. An optional shortened abstract.
 summary: "A review on genome-scale modeling of _S. cerevisiae_"
