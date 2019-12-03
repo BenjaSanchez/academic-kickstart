@@ -1,17 +1,16 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Absolute Quantification of Protein and mRNA Abundances Demonstrate Variability in Gene-Specific Translation Efficiency in Yeast"
+title: "Improving the phenotype predictions of a yeast genome-scale metabolic model by incorporating enzymatic constraints"
 authors:
-- Petri-Jaan Lahtvee
 - admin
-- Agata Smialowska
-- Sergo Kasvandik
-- Ibrahim E. Elsemman
-- Francesco Gatto
+- Cheng Zhang
+- Avlant Nilsson
+- Petri-Jaan Lahtvee
+- Eduard J Kerkhoven
 - Jens Nielsen
-date: "2017-05-24"
-doi: "10.1016/j.cels.2017.03.003"
+date: "2017-06-19"
+doi: "10.15252/msb.20167411"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: {{ .Date }}
@@ -23,18 +22,17 @@ doi: "10.1016/j.cels.2017.03.003"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Cell Systems"
+publication: "Molecular Systems Biology"
 publication_short: ""
 
-abstract: "In order to get an overview of the physiological adaptation to stress in _S. cerevisiae_, in this study we measured absolute abundances (i.e. number of copies per cell) of over 5000 mRNAs and 2000 proteins, under 10 different conditions of stress (heat stress, osmotic stress and ethanol stress). We also estimated degradation rates for over 1000 proteins, in order to compute variability in translational efficiency across different processes in the cell. This multi-layered dataset has proven extremely helpful in my research, and I keep coming back to it whenever I want to validate methods or unveil more yeast biology."
+abstract: "A common problem when simulating metabolism with constraint-based modeling is that the user has to define _a priori_ the limitations of consumption, production and/or growth, as otherwise there are no internal constraints in the model that represent a biologically meaningful maximum capacity. This paper introduced GECKO, my flagship project throughout my PhD. GECKO is a computational tool that connects in a straightforward way metabolic fluxes to enzyme levels, imposing intrinsic limitations in metabolism due to the limited intracellular space for enzymes. We tested this approach for _S. cerevisiae_, creating a so-called "enzyme-constrained model" (ecModel) of yeast, and with it we showed that without including any additional constraints we were able to correctly predict cell phisiology under a number of experimental conditions, provide insight into enzyme usage across metabolism, and significantly reduce the inherent variability of flux predictions."
 
 # Summary. An optional shortened abstract.
-summary: "An integrative study of yeast's response to stress from an omics perspective."
+summary: "A simple computational framework for connecting metabolism and enzyme levels"
 
 tags:
+- GEMs
 - proteomics
-- transcriptomics
-- protein turnover
 - yeast
 categories: []
 featured: true
@@ -47,8 +45,8 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://www.cell.com/cell-systems/pdfExtended/S2405-4712(17)30088-1
-url_code:
+url_pdf: https://www.embopress.org/doi/epdf/10.15252/msb.20167411
+url_code: https://github.com/SysBioChalmers/GECKO
 url_dataset: https://www.ebi.ac.uk/pride/archive/projects/PXD005041
 url_poster:
 url_project:
@@ -60,7 +58,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Distribution of the number of different mRNAs and proteins in yeast. Taken from the original publication: https://www.doi.org/10.1016/j.cels.2017.03.003"
+  caption: "Overview of the GECKO method and its applications. Taken from the original publication: https://www.doi.org/10.15252/msb.20167411"
   focal_point: ""
   preview_only: false
 
