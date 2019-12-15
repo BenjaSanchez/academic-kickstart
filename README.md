@@ -28,6 +28,29 @@ You can choose from one of the following four methods to install:
 
 Then [personalize your new site](https://sourcethemes.com/academic/docs/get-started/).
 
+## Building Locally
+
+Local installation:
+* Install [Chocolatey](https://chocolatey.org/), the package manager for Windows.
+* Run:
+  ```bash
+  choco install hugo-extended -confirm
+  ```
+* Clone the repo
+* From the repo's root:
+  ```bash
+  git submodule update --init --recursive
+  ```
+
+Build steps:
+* From the repo's root:
+  ```bash
+  hugo server
+  ```
+* Website will be available at http://localhost:1313/
+
+More info at https://georgecushen.com/create-your-website-with-hugo/
+
 ## Ecosystem
 
 * **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
