@@ -7,7 +7,7 @@ authors:
 - Cheng Zhang
 - Avlant Nilsson
 - Petri-Jaan Lahtvee
-- Eduard J Kerkhoven
+- Eduard J. Kerkhoven
 - Jens Nielsen
 date: "2017-06-19"
 doi: "10.15252/msb.20167411"
