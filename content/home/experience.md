@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date_start = "2021-03-01"
   date_end = ""
   description = """
-  * Studying the power of microbial diversity and their application in the food, nutritional, pharmaceutical and agricultural industries 
+  * Studying microbial diversity and its application in the food, nutritional, pharmaceutical and agricultural industries 
   * Working at the bioinformatics and modeling department
   """
 

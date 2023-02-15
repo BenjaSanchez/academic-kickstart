@@ -81,4 +81,4 @@ email: ""
 # - Visitors
 ---
 
-I'm a computational biologist passionate about understanding better biology using math and computers. I'm currently located in Copenhagen, Denmark, working as a research scientist in Chr. Hansen. Nice to meet you!
+I'm a computational biologist, passionate about understanding biology using math and computers. I'm currently located in Copenhagen, Denmark, working as a research scientist in Chr. Hansen. Nice to meet you!
