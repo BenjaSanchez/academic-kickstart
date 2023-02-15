@@ -84,19 +84,19 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "bjsanchezb@gmail.com"
-phone = "+45 4525 8000"
+email = "dkbesz@chr-hansen.com"
+phone = "+45 4574 7474"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Kemitorvet 220", city = "Kongens Lyngby", region = "Copenhagen", postcode = "2800", country = "Denmark", country_code = "DK"}
+address = {street = "Bøge Alle 10-12", region = "Hørsholm", postcode = "2970", country = "Denmark", country_code = "DK"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "55.787953", longitude = "12.519920"}
+coordinates = {latitude = "55.8730574", longitude = "12.4845371"}
 
 # Directions for visitors to locate you.
-directions = "Building 220 (DTU Biosustain), floor 2"
+directions = "Building 6"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
