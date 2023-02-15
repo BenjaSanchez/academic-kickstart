@@ -10,24 +10,23 @@ authors:
 superuser: true
 
 # Role/position
-role: Computational Biologist
+role: Research Scientist
 
 # Organizations/Affiliations
 organizations:
-- name: Technical University of Denmark
-  url: "https://www.dtu.dk/english"
-- name: DD-DeCaF
-  url: "http://dd-decaf.eu/"
+- name: Chr. Hansen
+  url: "https://www.chr-hansen.com/en"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Computational biologist / Postdoctoral researcher / Avid runner
+bio: Computational biologist / Research scientist / Avid runner
 
 interests:
+- Comparative Genomics
 - Metabolic Modeling
-- Proteomics
 - Software Development
-- Collaborative Research
 - Running
+- Climbing
+- Improv Theater
 - Table-top RPG's
 
 education:
@@ -49,7 +48,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:bjsanchezb@gmail.com"  # For a direct email link, use "mailto:test@example.org"
+  link: "mailto:dkbesz@chr-hansen.com"  # For a direct email link, use "mailto:test@example.org"
 - icon: github
   icon_pack: fab
   link: https://github.com/BenjaSanchez
@@ -82,4 +81,4 @@ email: ""
 # - Visitors
 ---
 
-I'm a computational biologist passionate about understanding better biology using math and computers. I'm currently located in Copenhagen, Denmark, working as a postdoctoral researcher in DTU. Nice to meet you!
+I'm a computational biologist passionate about understanding better biology using math and computers. I'm currently located in Copenhagen, Denmark, working as a research scientist in Chr. Hansen. Nice to meet you!

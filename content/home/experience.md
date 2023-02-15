@@ -18,12 +18,24 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Research Scientist"
+  company = "Chr. Hansen"
+  company_url = "https://www.chr-hansen.com/en"
+  location = "Hørsholm, Denmark"
+  date_start = "2021-03-01"
+  date_end = ""
+  description = """
+  * Studying the power of microbial diversity and their application in the food, nutritional, pharmaceutical and agricultural industries 
+  * Working at the bioinformatics and modeling department
+  """
+
+[[experience]]
   title = "Postdoctoral Researcher"
   company = "Technical University of Denmark"
   company_url = "https://www.dtu.dk/english"
-  location = "Copenhagen, Denmark"
+  location = "Lyngby, Denmark"
   date_start = "2019-10-01"
-  date_end = ""
+  date_end = "2021-02-28"
   description = """
   * Studying absolute proteomics datasets in the context of microbial metabolism
   * Back-end developer for [DD-DeCaF](http://dd-decaf.eu/)

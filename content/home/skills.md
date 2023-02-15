@@ -18,13 +18,13 @@ subtitle = ""
   icon = "laptop-code"
   icon_pack = "fas"
   name = "Programming Languages"
-  description = "Python, R, Matlab"
+  description = "Python, R, Bash, Matlab"
 
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Mathematical Modeling"
-  description = "Stoichiometric Models, Dynamic Models, Network Analysis"
+  description = "Stoichiometric Models, Kinetic Models, Network Analysis"
 
 [[feature]]
   icon = "git-alt"
@@ -36,7 +36,7 @@ subtitle = ""
   icon = "brain"
   icon_pack = "fas"
   name = "Analysis of Big Data"
-  description = "Proteomics, Transcriptomics, Kinetomics"
+  description = "Comparative Genomics, Proteomics, Transcriptomics, Kinetomics"
 
 [[feature]]
   icon = "flask"
