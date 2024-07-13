@@ -18,7 +18,7 @@ organizations:
   url: "https://www.novonesis.com/en"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Computational biologist / Research scientist / Avid runner
+bio: Biology, math, programming, running, and many other fun things
 
 interests:
 - Comparative Genomics
