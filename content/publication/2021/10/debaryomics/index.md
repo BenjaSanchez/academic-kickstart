@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "DebaryOmics: an integrative –omics study to understand the halophilic behaviour of Debaryomyces hansenii"
+title: "DebaryOmics: an integrative –omics study to understand the halophilic behaviour of _Debaryomyces hansenii_"
 authors:
 - Clara Navarrete
 - admin
@@ -26,7 +26,7 @@ publication_short: ""
 abstract: "This came from one of the collaborations I worked on during my postdoc. _Debaryomyces hansenii_ is a non-conventional yeast of industrial interest, mainly due to its high halotolerance (resistance to high salt levels). To better understand said tolerance, here we performed chemostat cultivations of _D. hansenii_ in the presence of different salts, and studied the transcriptomic and (phospho)proteomic responses under each condition. I mainly provided support on the transcriptomics analyses. The results show that sodium and potassium trigger different responses at both gene expression and protein activity levels. In particular, a novel and yet uncharacterized cation transporter was found associated to the response to high sodium levels."
 
 # Summary. An optional shortened abstract.
-summary: "Transcriptomics and phosphoproteomic response of D. hansenii to increased salt levels"
+summary: "Transcriptomics and phosphoproteomic response of _D. hansenii_ to increased salt levels"
 
 tags:
 - yeast
