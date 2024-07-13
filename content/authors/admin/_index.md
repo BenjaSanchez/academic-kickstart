@@ -14,8 +14,8 @@ role: Research Scientist
 
 # Organizations/Affiliations
 organizations:
-- name: Chr. Hansen
-  url: "https://www.chr-hansen.com/en"
+- name: Novonesis
+  url: "https://www.novonesis.com/en"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Computational biologist / Research scientist / Avid runner
@@ -48,7 +48,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:dkbesz@chr-hansen.com"  # For a direct email link, use "mailto:test@example.org"
+  link: "mailto:besz@novonesis.com"  # For a direct email link, use "mailto:test@example.org"
 - icon: github
   icon_pack: fab
   link: https://github.com/BenjaSanchez
@@ -57,7 +57,7 @@ social:
   link: https://www.researchgate.net/profile/Benjamin_Sanchez3
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.se/citations?user=afIK8dMAAAAJ&hl=en
+  link: https://scholar.google.com/citations?user=_fxMVnwAAAAJ&hl=en
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/benjasanchez
