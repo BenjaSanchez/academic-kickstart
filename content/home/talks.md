@@ -19,6 +19,13 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Egmond an Zee, The Netherlands"
+  title = "14th Symposium on Lactic Acid Bacteria (LAB14)"
+  url = "https://www.labsymposium.org/"
+  date_start = "2023-08-27"
+  description = "Poster presentation: _Exploring Lactococcus strain diversity with the help of genome-scale metabolic modeling_"
+
+[[item]]
   organization = "Finse, Norway"
   title = "Reconstruction Workshop for Genome-Scale Modeling of Fish"
   url = ""

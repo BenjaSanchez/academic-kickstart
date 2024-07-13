@@ -30,7 +30,7 @@ publication_short: ""
 abstract: "This came from one of the collaborations I worked on during my postdoc. I had the privilege to supervise Viviënne while she built from scratch a metabolic genome-scale model of _P. thermoglucosidasius_, a thermophilic facultative anaerobic bacterium. The model was developed using the principles we established in a [previous](https://www.benjasanchez.com/publication/2019/08/yeast8/) publication, and was extensively curated and validated. It was used to predict carbon utilization, and identify minimal required supplemented nutrients in medium so that the organism can grow. It was a fun project that we mainly worked on remotely during the COVID-19 pandemic."
 
 # Summary. An optional shortened abstract.
-summary: "p-thermo: Development of a genome-scale model of P. thermoglucosidasius"
+summary: "p-thermo: Development of a genome-scale model of _P. thermoglucosidasius_"
 
 tags:
 - GEMs
