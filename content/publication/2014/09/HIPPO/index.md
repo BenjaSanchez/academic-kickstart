@@ -31,6 +31,7 @@ summary: "A method for evaluating kinetic parameters in bioreactor models."
 
 tags:
 - kinetics
+- tool
 categories: []
 featured: false
 

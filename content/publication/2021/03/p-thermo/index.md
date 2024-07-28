@@ -34,6 +34,7 @@ summary: "p-thermo: Development of a genome-scale model of _P. thermoglucosidasi
 
 tags:
 - GEMs
+- reconstruction
 categories: []
 featured: false
 

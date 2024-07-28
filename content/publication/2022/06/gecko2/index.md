@@ -37,7 +37,9 @@ summary: "Streamlining generation of enzyme-constrained models using GECKO"
 tags:
 - yeast
 - proteomics
+- protein turnover
 - GEMs
+- tool
 categories: []
 featured: false
 

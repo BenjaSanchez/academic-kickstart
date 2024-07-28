@@ -41,6 +41,7 @@ summary: "The consensus metabolic model of yeast as a standard in the community"
 tags:
 - GEMs
 - yeast
+- reconstruction
 categories: []
 featured: true
 
