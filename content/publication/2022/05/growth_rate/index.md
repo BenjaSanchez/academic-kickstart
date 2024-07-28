@@ -1,17 +1,16 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Emergence of Phenotypically Distinct Subpopulations Is a Factor in Adaptation of Recombinant Saccharomyces cerevisiae under Glucose-Limited Conditions"
+title: "Proteome allocations change linearly with the specific growth rate of Saccharomyces cerevisiae under glucose limitation"
 authors:
-- Naia Risager Wright
-- Mathew M. Jessop-Fabre
+- Jianye Xia
 - admin
-- Tune Wulff
-- Christopher T. Workman
-- Nanna Petersen Rønnest
-- Nikolaus Sonnenschein
-date: "2022-04-12"
-doi: "10.1128/aem.02307-21"
+- Yu Chen
+- Kate Campbell
+- Sergo Kasvandik
+- Jens Nielsen
+date: "2022-05-20"
+doi: "10.1038/s41467-022-30513-2"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: {{ .Date }}
@@ -23,17 +22,18 @@ doi: "10.1128/aem.02307-21"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Applied and Environmental Microbiology"
+publication: "Nature Communications"
 publication_short: ""
 
-abstract: "This came from one of the collaborations I worked on during my postdoc. Sometimes a strain can behave in a non-heteregenous way by splitting into different subpopulations, where each one performs a specific task, which makes it relevant to study each behavior separately. Here we investigated the adaptation of a _S. cerevisiae_ strain that produces a heterologous insulin product at the sub-population level, by using a method called fluorescence-activated cell sorting (FACS) that can separate cells at the single-cell level. We found 3 subpopulations, each one with a specific phenotype: (i) reduced insulin production, (ii) reduyced enzyme capacity in central carbon metabolism, and (iii) pseudohyphal growth. I helped Naia in some of the computational simulations that we performed to understand some of the subpopulations' metabolic activities."
+abstract: "This came from one of the collaborations I worked on during my PhD. We realized that there was no good multi-omic dataset to study _S. cerevisiae_, baker's yeast, at increasing growth rates, whilst limited in the main carbon source. So we created one, including transcriptomics, proteomics, phosphoproteomics, and metabolomics. I was involved in data analysis and computational simulations. This dataset allowed to find correlations across different omic levels between proteins belonging to main cellular processes, such as glycolisis, DNA replication, and amino acid biosynthesis. Additionally, as all the data was made publicly available, this wonderful dataset can be used as a basis for more systems-level studies in the future."
 
 # Summary. An optional shortened abstract.
-summary: "Studying subpopulations of a _S. cerevisiae_ strain with single-cell level technology"
+summary: "A quantitative multi-omic dataset of _S. cerevisiae_ at increasing growth rates"
 
 tags:
 - yeast
 - proteomics
+- transcriptomics
 - GEMs
 categories: []
 featured: false
@@ -46,9 +46,9 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://journals.asm.org/doi/epub/10.1128/aem.02307-21
-url_code:
-url_dataset: https://doi.org/10.11583/DTU.17080931
+url_pdf: https://www.nature.com/articles/s41467-022-30513-2.pdf
+url_code: https://github.com/bioexplore/multiomcispaperdata/tree/main/MetabolomeData
+url_dataset: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA523289/
 url_poster:
 url_project:
 url_slides:
@@ -59,7 +59,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Overview of the three subpopulations uncovered. Taken from the original publication: https://doi.org/10.1128/aem.02307-21"
+  caption: "Glycolytic levels across different omic data. Taken from the original publication: https://doi.org/10.1038/s41467-022-30513-2"
   focal_point: ""
   preview_only: false
 
