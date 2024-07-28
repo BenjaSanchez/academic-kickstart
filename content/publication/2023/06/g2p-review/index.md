@@ -1,12 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Genome scale models of yeast: towards standardized evaluation and consistent omic integration"
+title: "From genotype to phenotype: computational approaches for inferring microbial traits relevant to the food industry"
 authors:
+- Signe T Karlsen
+- Martin H Rau
 - admin
-- Jens Nielsen
-date: "2015-06-09"
-doi: "10.1039/c5ib00083a"
+- Kristian Jensen
+- Ahmad A Zeidan
+date: "2023-06-07"
+doi: "10.1093/femsre/fuad030"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: {{ .Date }}
@@ -18,18 +21,19 @@ doi: "10.1039/c5ib00083a"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Integrative Biology"
+publication: "FEMS Microbiology Reviews"
 publication_short: ""
 
-abstract: "In this review we cover the genome-scale modeling (GEM) technique and how it has been applied in _Saccharomyces cerevisiae_. We focus on different ways of evaluating model quality, and different ways of integrating omics data in them. Writing it was a great way for me to study the field at the beginning of my PhD, and find areas that had not been very much explored (e.g. integration of proteomics data)."
+abstract: "This was the first publication that I was a part of in my job as a scientist in Chr. Hansen (now Novonesis), a company that produces bacterial cultures for the food industry. Here we present a review of the main computational approaches for inferring phenotype from genotype. We divided all aproaches in 3 categories: knowledge-driven (where you build models from known mechanisms based on e.g. literature sources), data-driven (where you infer mechanisms from data using e.g. machine learning), and hybrid appraoches that combine both knowledge and data-driven aspects. I was in charge of compiling all these hybrid approaches, and it was a good oportunity for me to learn more about the state of the art of the field."
 
 # Summary. An optional shortened abstract.
-summary: "A review on genome-scale modeling of _S. cerevisiae_"
+summary: "A review of knowledge and data-driven computational approaches used in biotech"
 
 tags:
 - review
+- LAB
 - GEMs
-- yeast
+- machine learning
 categories: []
 featured: false
 
@@ -41,7 +45,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://www.researchgate.net/publication/278160443_Genome_scale_models_of_yeast_Towards_standardized_evaluation_and_consistent_omic_integration
+url_pdf: https://academic.oup.com/femsre/article-pdf/47/4/fuad030/50976309/fuad030.pdf
 url_code:
 url_dataset:
 url_poster:
@@ -54,7 +58,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Model size increase in GEMs across the years. Taken from the original publication: https://www.doi.org/10.1039/c5ib00083a"
+  caption: "Overview of different methods for inferring phenotype from genotype. Taken from the original publication: https://doi.org/10.1093/femsre/fuad030"
   focal_point: ""
   preview_only: false
 

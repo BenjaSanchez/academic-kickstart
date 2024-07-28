@@ -1,12 +1,16 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Genome scale models of yeast: towards standardized evaluation and consistent omic integration"
+title: "Proteome allocations change linearly with the specific growth rate of Saccharomyces cerevisiae under glucose limitation"
 authors:
+- Jianye Xia
 - admin
+- Yu Chen
+- Kate Campbell
+- Sergo Kasvandik
 - Jens Nielsen
-date: "2015-06-09"
-doi: "10.1039/c5ib00083a"
+date: "2022-05-20"
+doi: "10.1038/s41467-022-30513-2"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: {{ .Date }}
@@ -18,18 +22,19 @@ doi: "10.1039/c5ib00083a"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Integrative Biology"
+publication: "Nature Communications"
 publication_short: ""
 
-abstract: "In this review we cover the genome-scale modeling (GEM) technique and how it has been applied in _Saccharomyces cerevisiae_. We focus on different ways of evaluating model quality, and different ways of integrating omics data in them. Writing it was a great way for me to study the field at the beginning of my PhD, and find areas that had not been very much explored (e.g. integration of proteomics data)."
+abstract: "This came from one of the collaborations I worked on during my PhD. We realized that there was no good multi-omic dataset to study _S. cerevisiae_, baker's yeast, at increasing growth rates, whilst limited in the main carbon source. So we created one, including transcriptomics, proteomics, phosphoproteomics, and metabolomics. I was involved in data analysis and computational simulations. This dataset allowed to find correlations across different omic levels between proteins belonging to main cellular processes, such as glycolisis, DNA replication, and amino acid biosynthesis. Additionally, as all the data was made publicly available, this wonderful dataset can be used as a basis for more systems-level studies in the future."
 
 # Summary. An optional shortened abstract.
-summary: "A review on genome-scale modeling of _S. cerevisiae_"
+summary: "A quantitative multi-omic dataset of _S. cerevisiae_ at increasing growth rates"
 
 tags:
-- review
-- GEMs
 - yeast
+- proteomics
+- transcriptomics
+- GEMs
 categories: []
 featured: false
 
@@ -41,9 +46,9 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://www.researchgate.net/publication/278160443_Genome_scale_models_of_yeast_Towards_standardized_evaluation_and_consistent_omic_integration
-url_code:
-url_dataset:
+url_pdf: https://www.nature.com/articles/s41467-022-30513-2.pdf
+url_code: https://github.com/bioexplore/multiomcispaperdata/tree/main/MetabolomeData
+url_dataset: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA523289/
 url_poster:
 url_project:
 url_slides:
@@ -54,7 +59,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Model size increase in GEMs across the years. Taken from the original publication: https://www.doi.org/10.1039/c5ib00083a"
+  caption: "Glycolytic levels across different omic data. Taken from the original publication: https://doi.org/10.1038/s41467-022-30513-2"
   focal_point: ""
   preview_only: false
 

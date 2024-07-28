@@ -33,7 +33,7 @@ publication_types: ["2"]
 publication: "Nature Communications"
 publication_short: ""
 
-abstract: "This behemoth of a paper presents the new version of the genome-scale model (GEM) of _S. cerevisiae_, yeast8, together with a family of models connected to it: an enzyme-constrained version (ecYeast8), a database of protein structures (proYeast8-DB), over a thousand different models representing different _S. cerevisiae_ sequenced strains, and a model of the union (panYeast8) and intersection (coreYeast8) of said strains. I was mainly involved in developing a way of keeping track of continuous changes in the model, with the aid of version control. The result is available at https://github.com/SysBioChalmers/yeast-GEM, and sets a standard on how GEMs can be updated in a simple and reproducible way, without needing to rely in any third-party software and with 100% transparency. I hope that this study will encourage more research groups in the world to transition from the 'traditional' way of working with GEMs, where changes are not tracked and it is hard to figure out the differences between two different versions of the same model, to an open and reproducible workstyle where different people can collaborate together towards better GEMs."
+abstract: "This behemoth of a paper presents the new version of the genome-scale model (GEM) of _S. cerevisiae_, yeast8, together with a family of models connected to it: an enzyme-constrained version (ecYeast8), a database of protein structures (proYeast8-DB), over a thousand different models representing different _S. cerevisiae_ sequenced strains, and a model of the union (panYeast8) and intersection (coreYeast8) of said strains. I was mainly involved in developing a way of keeping track of continuous changes in the model, with the aid of version control. The result is available [here](https://github.com/SysBioChalmers/yeast-GEM), and sets a standard on how GEMs can be updated in a simple and reproducible way, without needing to rely in any third-party software and with 100% transparency. I hope that this study will encourage more research groups in the world to transition from the 'traditional' way of working with GEMs, where changes are not tracked and it is hard to figure out the differences between two different versions of the same model, to an open and reproducible workstyle where different people can collaborate together towards better GEMs."
 
 # Summary. An optional shortened abstract.
 summary: "The consensus metabolic model of yeast as a standard in the community"
@@ -41,6 +41,7 @@ summary: "The consensus metabolic model of yeast as a standard in the community"
 tags:
 - GEMs
 - yeast
+- reconstruction
 categories: []
 featured: true
 

@@ -1,12 +1,18 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Genome scale models of yeast: towards standardized evaluation and consistent omic integration"
+title: "Genome-scale metabolic modeling of P. thermoglucosidasius NCIMB 11955 reveals metabolic bottlenecks in anaerobic metabolism"
 authors:
+- Viviënne Mol
+- Martyn Bennett
 - admin
-- Jens Nielsen
-date: "2015-06-09"
-doi: "10.1039/c5ib00083a"
+- Beata K. Lisowska
+- Markus J. Herrgård
+- Alex Toftgaard Nielsen
+- David J. Leak
+- Nikolaus Sonnenschein
+date: "2021-03-01"
+doi: "10.1016/j.ymben.2021.03.002"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: {{ .Date }}
@@ -18,18 +24,17 @@ doi: "10.1039/c5ib00083a"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Integrative Biology"
+publication: "Metabolic Engineering"
 publication_short: ""
 
-abstract: "In this review we cover the genome-scale modeling (GEM) technique and how it has been applied in _Saccharomyces cerevisiae_. We focus on different ways of evaluating model quality, and different ways of integrating omics data in them. Writing it was a great way for me to study the field at the beginning of my PhD, and find areas that had not been very much explored (e.g. integration of proteomics data)."
+abstract: "This came from one of the collaborations I worked on during my postdoc. I had the privilege to supervise Viviënne while she built from scratch a metabolic genome-scale model of _P. thermoglucosidasius_, a thermophilic facultative anaerobic bacterium. The model was developed using the principles we established in a [previous](https://www.benjasanchez.com/publication/2019/08/yeast8/) publication, and was extensively curated and validated. It was used to predict carbon utilization, and identify minimal required supplemented nutrients in medium so that the organism can grow. It was a fun project that we mainly worked on remotely during the COVID-19 pandemic."
 
 # Summary. An optional shortened abstract.
-summary: "A review on genome-scale modeling of _S. cerevisiae_"
+summary: "p-thermo: Development of a genome-scale model of _P. thermoglucosidasius_"
 
 tags:
-- review
 - GEMs
-- yeast
+- reconstruction
 categories: []
 featured: false
 
@@ -41,8 +46,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://www.researchgate.net/publication/278160443_Genome_scale_models_of_yeast_Towards_standardized_evaluation_and_consistent_omic_integration
-url_code:
+url_pdf: https://www.sciencedirect.com/science/article/pii/S1096717621000380/pdfft?md5=516782248f1f99ae7a7653eea6370e84&pid=1-s2.0-S1096717621000380-main.pdf
+url_code: https://github.com/biosustain/p-thermo
 url_dataset:
 url_poster:
 url_project:
@@ -54,7 +59,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Model size increase in GEMs across the years. Taken from the original publication: https://www.doi.org/10.1039/c5ib00083a"
+  caption: "Overview of reactions in model. Taken from the original publication: https://doi.org/10.1016/j.ymben.2021.03.002"
   focal_point: ""
   preview_only: false
 

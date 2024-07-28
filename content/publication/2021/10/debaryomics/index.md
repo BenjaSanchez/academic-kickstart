@@ -1,12 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Genome scale models of yeast: towards standardized evaluation and consistent omic integration"
+title: "DebaryOmics: an integrative –omics study to understand the halophilic behaviour of Debaryomyces hansenii"
 authors:
+- Clara Navarrete
 - admin
-- Jens Nielsen
-date: "2015-06-09"
-doi: "10.1039/c5ib00083a"
+- Simonas Savickas
+- Jose L. Martínez
+date: "2021-10-10"
+doi: "10.1111/1751-7915.13954"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: {{ .Date }}
@@ -18,18 +20,18 @@ doi: "10.1039/c5ib00083a"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Integrative Biology"
+publication: "Microbial Biotechnology"
 publication_short: ""
 
-abstract: "In this review we cover the genome-scale modeling (GEM) technique and how it has been applied in _Saccharomyces cerevisiae_. We focus on different ways of evaluating model quality, and different ways of integrating omics data in them. Writing it was a great way for me to study the field at the beginning of my PhD, and find areas that had not been very much explored (e.g. integration of proteomics data)."
+abstract: "This came from one of the collaborations I worked on during my postdoc. _Debaryomyces hansenii_ is a non-conventional yeast of industrial interest, mainly due to its high halotolerance (resistance to high salt levels). To better understand said tolerance, here we performed chemostat cultivations of _D. hansenii_ in the presence of different salts, and studied the transcriptomic and (phospho)proteomic responses under each condition. I mainly provided support on the transcriptomics analyses. The results show that sodium and potassium trigger different responses at both gene expression and protein activity levels. In particular, a novel and yet uncharacterized cation transporter was found associated to the response to high sodium levels."
 
 # Summary. An optional shortened abstract.
-summary: "A review on genome-scale modeling of _S. cerevisiae_"
+summary: "Transcriptomics and phosphoproteomic response of _D. hansenii_ to increased salt levels"
 
 tags:
-- review
-- GEMs
 - yeast
+- proteomics
+- transcriptomics
 categories: []
 featured: false
 
@@ -41,8 +43,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://www.researchgate.net/publication/278160443_Genome_scale_models_of_yeast_Towards_standardized_evaluation_and_consistent_omic_integration
-url_code:
+url_pdf: https://enviromicro-journals.onlinelibrary.wiley.com/doi/epdf/10.1111/1751-7915.13954
+url_code: https://github.com/computer-aided-biotech/debary-omics
 url_dataset:
 url_poster:
 url_project:
@@ -54,7 +56,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Model size increase in GEMs across the years. Taken from the original publication: https://www.doi.org/10.1039/c5ib00083a"
+  caption: "Overview of the main transporters in _D. hansenii_. Taken from the original publication: https://doi.org/10.1111/1751-7915.13954"
   focal_point: ""
   preview_only: false
 

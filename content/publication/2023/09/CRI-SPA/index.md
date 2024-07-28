@@ -1,12 +1,22 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Genome scale models of yeast: towards standardized evaluation and consistent omic integration"
+title: "CRI-SPA: a high-throughput method for systematic genetic editing of yeast libraries"
 authors:
+- Paul Cachera
+- Helén Olsson
+- Hilde Coumou
+- Mads L Jensen
 - admin
-- Jens Nielsen
-date: "2015-06-09"
-doi: "10.1039/c5ib00083a"
+- Tomas Strucko
+- Marcel van den Broek
+- Jean-Marc Daran
+- Michael K Jensen
+- Nikolaus Sonnenschein
+- Michael Lisby
+- Uffe H Mortensen
+date: "2023-09-22"
+doi: "10.1093/nar/gkad656"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: {{ .Date }}
@@ -18,18 +28,17 @@ doi: "10.1039/c5ib00083a"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Integrative Biology"
+publication: "Nucleic acids research"
 publication_short: ""
 
-abstract: "In this review we cover the genome-scale modeling (GEM) technique and how it has been applied in _Saccharomyces cerevisiae_. We focus on different ways of evaluating model quality, and different ways of integrating omics data in them. Writing it was a great way for me to study the field at the beginning of my PhD, and find areas that had not been very much explored (e.g. integration of proteomics data)."
+abstract: "This came from one of the collaborations I worked on during my postdoc. The paper presents CRI-SPA, an experimental method for transferring chromosomal genetic features from a donor strain to large libraries of _S. cerevisiae_. The method is highly efficient, reproducible and scalable, and is promising for systems-level understanding of cellular processes. I was involved in the first implementation of the method, at the data analysis level."
 
 # Summary. An optional shortened abstract.
-summary: "A review on genome-scale modeling of _S. cerevisiae_"
+summary: "A highly efficient, reproducible and scalable genome editing method"
 
 tags:
-- review
-- GEMs
 - yeast
+- metabolic engineering
 categories: []
 featured: false
 
@@ -41,9 +50,9 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://www.researchgate.net/publication/278160443_Genome_scale_models_of_yeast_Towards_standardized_evaluation_and_consistent_omic_integration
-url_code:
-url_dataset:
+url_pdf: https://academic.oup.com/nar/article-pdf/51/17/e91/51720156/gkad656.pdf
+url_code: https://doi.org/10.5281/zenodo.8160760
+url_dataset: https://github.com/pc2912/CRI-SPA_repo
 url_poster:
 url_project:
 url_slides:
@@ -54,7 +63,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Model size increase in GEMs across the years. Taken from the original publication: https://www.doi.org/10.1039/c5ib00083a"
+  caption: "Graphical abstract. Taken from the original publication: https://doi.org/10.1093/nar/gkad656"
   focal_point: ""
   preview_only: false
 

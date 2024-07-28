@@ -48,6 +48,6 @@ subtitle = ""
   icon = "language"
   icon_pack = "fas"
   name = "Spoken Languages"
-  description = "English (full proficiency), Swedish (basic), Spanish (native speaker) "
+  description = "English (full proficiency), Danish (intermediate), Swedish (basic), Spanish (native speaker)"
 
 +++
