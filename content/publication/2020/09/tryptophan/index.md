@@ -40,8 +40,8 @@ summary: "Over-producing tryptophan using a combination of machine learning and 
 
 tags:
 - GEMs
-- metabolic-engineering
-- machine-learning
+- metabolic engineering
+- machine learning
 - yeast
 categories: []
 featured: false
