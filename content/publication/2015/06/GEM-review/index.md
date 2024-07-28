@@ -27,6 +27,7 @@ abstract: "In this review we cover the genome-scale modeling (GEM) technique and
 summary: "A review on genome-scale modeling of _S. cerevisiae_"
 
 tags:
+- review
 - GEMs
 - yeast
 categories: []

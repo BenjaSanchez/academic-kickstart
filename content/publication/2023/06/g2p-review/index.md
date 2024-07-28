@@ -30,6 +30,7 @@ abstract: "This was the first publication that I was a part of in my job as a sc
 summary: "A review of knowledge and data-driven computational approaches used in biotech"
 
 tags:
+- review
 - LAB
 - GEMs
 - machine learning
