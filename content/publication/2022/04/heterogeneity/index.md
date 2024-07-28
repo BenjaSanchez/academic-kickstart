@@ -1,14 +1,17 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "DebaryOmics: an integrative –omics study to understand the halophilic behaviour of Debaryomyces hansenii"
+title: "Emergence of Phenotypically Distinct Subpopulations Is a Factor in Adaptation of Recombinant Saccharomyces cerevisiae under Glucose-Limited Conditions"
 authors:
-- Clara Navarrete
+- Naia Risager Wright
+- Mathew M. Jessop-Fabre
 - admin
-- Simonas Savickas
-- Jose L. Martínez
-date: "2021-10-10"
-doi: "10.1111/1751-7915.13954"
+- Tune Wulff
+- Christopher T. Workman
+- Nanna Petersen Rønnest
+- Nikolaus Sonnenschein
+date: "2022-04-12"
+doi: "10.1128/aem.02307-21"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: {{ .Date }}
@@ -20,18 +23,17 @@ doi: "10.1111/1751-7915.13954"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Microbial Biotechnology"
+publication: "Applied and Environmental Microbiology"
 publication_short: ""
 
-abstract: "This came from one of the collaborations I worked on during my postdoc. _Debaryomyces hansenii_ is a non-conventional yeast of industrial interest, mainly due to its high halotolerance (resistance to high salt levels). To better understand said tolerance, here we performed chemostat cultivations of _D. hansenii_ in the presence of different salts, and studied the transcriptomic and (phospho)proteomic responses under each condition. I mainly provided support on the transcriptomics analyses. The results show that sodium and potassium trigger different responses at both gene expression and protein activity levels. In particular, a novel and yet uncharacterized cation transporter was found associated to the response to high sodium levels."
+abstract: "This came from one of the collaborations I worked on during my postdoc. Sometimes a strain can behave in a non-heteregenous way by splitting into different subpopulations, where each one performs a specific task, which makes it relevant to study each behavior separately. Here we investigated the adaptation of a _S. cerevisiae_ strain that produces a heterologous insulin product at the sub-population level, by using a method called fluorescence-activated cell sorting (FACS) that can separate cells at the single-cell level. We found 3 subpopulations, each one with a specific phenotype: (i) reduced insulin production, (ii) reduyced enzyme capacity in central carbon metabolism, and (iii) pseudohyphal growth. I helped Naia in some of the computational simulations that we performed to understand some of the subpopulations' metabolic activities."
 
 # Summary. An optional shortened abstract.
-summary: "Transcriptomics and phosphoproteomic response of _D. hansenii_ to increased salt levels"
+summary: "Studying subpopulations of a _S. cerevisiae_ strain with single-cell level technology"
 
 tags:
 - yeast
 - proteomics
-- transcriptomics
 categories: []
 featured: false
 
@@ -43,9 +45,9 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://enviromicro-journals.onlinelibrary.wiley.com/doi/epdf/10.1111/1751-7915.13954
-url_code: https://github.com/computer-aided-biotech/debary-omics
-url_dataset:
+url_pdf: https://journals.asm.org/doi/epub/10.1128/aem.02307-21
+url_code:
+url_dataset: https://doi.org/10.11583/DTU.17080931
 url_poster:
 url_project:
 url_slides:
@@ -56,7 +58,7 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Overview of the main transporters in _D. hansenii_. Taken from the original publication: https://doi.org/10.1111/1751-7915.13954"
+  caption: "Overview of the three subpopulations uncovered. Taken from the original publication: https://doi.org/10.1128/aem.02307-21"
   focal_point: ""
   preview_only: false
 
