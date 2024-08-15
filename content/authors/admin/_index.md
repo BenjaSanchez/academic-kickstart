@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Scientist
+role: Senior Scientist
 
 # Organizations/Affiliations
 organizations:
@@ -81,4 +81,4 @@ email: ""
 # - Visitors
 ---
 
-I'm a computational biologist, passionate about understanding biology using math and computers. I'm currently located in Copenhagen, Denmark, working as a research scientist in Novonesis. Nice to meet you!
+I'm a computational biologist, passionate about understanding biology using math and computers. I'm currently located in Copenhagen, Denmark, working as a scientist in Novonesis. Nice to meet you!
