@@ -49,6 +49,14 @@ Build steps:
   ```
 * Website will be available at http://localhost:1313/
 
+### Theme compatibility overrides
+
+The templates in [layouts/](layouts/) override the corresponding Academic theme
+templates to fix publication condition syntax and author profile lookup with
+Hugo v0.128.2. Keep these fixes in the main repository rather than modifying the
+theme submodule. Review these overrides when upgrading the theme, since project
+layouts take precedence over theme layouts.
+
 More info at https://georgecushen.com/create-your-website-with-hugo/
 
 ## Ecosystem
