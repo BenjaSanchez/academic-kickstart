@@ -86,7 +86,7 @@ date_format = "Jan 2006"
   event_url = "https://www.aiche.org/sbe/conferences/metabolic-engineering-conference/2018"
   date = "2018-06"
   presentation_type = "Poster"
-  presentation_title = "The Consensus Genome-Scale Model of Yeast & Constraints on Lipid Metabolism"
+  presentation_title = "The consensus genome-scale model of yeast & constraints on lipid metabolism"
 
 [[item]]
   location = "Wailea, U.S.A."
@@ -206,6 +206,6 @@ date_format = "Jan 2006"
   event_url = "http://biotecuchile.blogspot.com/2011/04/sobre-vi-eneib-ano-2011.html"
   date = "2011-08"
   presentation_type = "Oral"
-  presentation_title = "Estudio de la Diferenciación de Células Progenitoras Musculares y proyecciones para la Ingeniería de Tejidos"
+  presentation_title = "Estudio de la diferenciación de células progenitoras musculares y proyecciones para la ingeniería de tejidos"
 
 +++

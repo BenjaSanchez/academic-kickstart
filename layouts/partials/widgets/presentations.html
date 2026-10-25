@@ -129,29 +129,30 @@
           visiblePresentations.forEach(function (presentation) {
             var event = document.createElement('div');
             event.className = 'presentation-map__event';
-          var type = document.createElement('span');
-          var presentationType = presentation.type || 'Poster';
-          var typeClass = presentationType.toLowerCase().replace(/\s+/g, '-');
-          type.className = 'presentation-map__type presentation-map__type--' + typeClass;
-          type.textContent = typeClass === 'oral' ? 'Oral presentation' : presentationType;
-          event.appendChild(type);
+
+            var title = document.createElement(presentation.event_url ? 'a' : 'span');
+            title.className = 'presentation-map__title';
+            title.textContent = presentation.event_name;
+            if (presentation.event_url && /^https?:\/\//i.test(presentation.event_url)) {
+              title.href = presentation.event_url;
+              title.target = '_blank';
+              title.rel = 'noopener';
+            }
+            event.appendChild(title);
 
             var date = document.createElement('span');
             date.className = 'presentation-map__date';
             date.textContent = presentation.date;
             event.appendChild(date);
 
-          var title = document.createElement(presentation.event_url ? 'a' : 'span');
-            title.className = 'presentation-map__title';
-          title.textContent = presentation.event_name;
-          if (presentation.event_url && /^https?:\/\//i.test(presentation.event_url)) {
-            title.href = presentation.event_url;
-              title.target = '_blank';
-              title.rel = 'noopener';
-            }
-            event.appendChild(title);
+            var type = document.createElement('span');
+            var presentationType = presentation.type || 'Poster';
+            var typeClass = presentationType.toLowerCase().replace(/\s+/g, '-');
+            type.className = 'presentation-map__type presentation-map__type--' + typeClass;
+            type.textContent = typeClass === 'oral' ? 'Oral presentation' : presentationType;
+            event.appendChild(type);
 
-          if (presentation.presentation_title) {
+            if (presentation.presentation_title) {
               var description = document.createElement('span');
               description.className = 'presentation-map__description';
               description.appendChild(document.createTextNode('Title: '));
