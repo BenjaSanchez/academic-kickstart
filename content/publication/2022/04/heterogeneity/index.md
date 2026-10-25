@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Emergence of Phenotypically Distinct Subpopulations Is a Factor in Adaptation of Recombinant Saccharomyces cerevisiae under Glucose-Limited Conditions"
+title: "Emergence of Phenotypically Distinct Subpopulations Is a Factor in Adaptation of Recombinant *Saccharomyces cerevisiae* under Glucose-Limited Conditions"
 authors:
 - Naia Risager Wright
 - Mathew M. Jessop-Fabre

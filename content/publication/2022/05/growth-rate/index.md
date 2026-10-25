@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Proteome allocations change linearly with the specific growth rate of Saccharomyces cerevisiae under glucose limitation"
+title: "Proteome allocations change linearly with the specific growth rate of *Saccharomyces cerevisiae* under glucose limitation"
 authors:
 - Jianye Xia
 - admin

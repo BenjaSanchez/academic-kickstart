@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Genome-scale modeling drives 70-fold improvement of intracellular heme production in Saccharomyces cerevisiae"
+title: "Genome-scale modeling drives 70-fold improvement of intracellular heme production in *Saccharomyces cerevisiae*"
 authors:
 - Olena P Ishchuk
 - Iván Domenzain

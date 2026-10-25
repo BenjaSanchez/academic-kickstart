@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Yeast9: a consensus genome-scale metabolic model for S. cerevisiae curated by the community"
+title: "Yeast9: a consensus genome-scale metabolic model for *S. cerevisiae* curated by the community"
 authors:
 - Chengyu Zhang
 - admin

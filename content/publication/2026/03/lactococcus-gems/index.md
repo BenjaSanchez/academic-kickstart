@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "High-throughput generation and comparison of genome-scale metabolic models reveal strain-specific metabolic diversity in 439 Lactococcus strains"
+title: "High-throughput generation and comparison of genome-scale metabolic models reveal strain-specific metabolic diversity in 439 *Lactococcus* strains"
 authors:
 - Jildau Emma Bras
 - admin
