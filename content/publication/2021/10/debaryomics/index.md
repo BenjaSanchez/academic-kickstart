@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "DebaryOmics: an integrative –omics study to understand the halophilic behaviour of Debaryomyces hansenii"
+title: "DebaryOmics: an integrative –omics study to understand the halophilic behaviour of *Debaryomyces hansenii*"
 authors:
 - Clara Navarrete
 - admin

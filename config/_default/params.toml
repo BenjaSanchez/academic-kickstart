@@ -201,19 +201,8 @@ plugins_js  = []
 ## Comments
 ############################
 [comments]
-  # Comment provider:
-  #   0: Disabled
-  #   1: Disqus (https://disqus.com)
-  #   2: Commento (https://commento.io)
-  engine = 1
-
-  # Which page types are commentable?
-  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
-
-  # Configuration of Disqus.
-  [comments.disqus]
-    shortname = "benjasanchez"  # Paste the shortname from your Disqus dashboard.
-    show_count = true  # Show comment count in page header? (true/false)
+  # Set to 0 to disable comments site-wide.
+  engine = 0
 
 ############################
 ## Search

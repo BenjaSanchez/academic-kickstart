@@ -1,11 +1,11 @@
 +++
-# Accomplishments widget.
-widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
+# Presentations map widget.
+widget = "presentations"
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Presentations"
+title = "Scientific presentations"
 subtitle = ""
 
 # Date format
@@ -14,120 +14,198 @@ date_format = "Jan 2006"
 
 # Presentations.
 #   Add/remove as many `[[item]]` blocks below as you like.
-#   `title`, `organization` and `date_start` are the required parameters.
+#   `event_name`, `location`, `date` and `presentation_type` are required.
+#   Also set `latitude` and `longitude` for the map.
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Egmond an Zee, The Netherlands"
-  title = "14th Symposium on Lactic Acid Bacteria (LAB14)"
-  url = "https://www.labsymposium.org/"
-  date_start = "2023-08-27"
-  description = "Poster presentation: _Exploring Lactococcus strain diversity with the help of genome-scale metabolic modeling_"
+  location = "Egmond aan Zee, The Netherlands"
+  latitude = 52.62
+  longitude = 4.63
+  event_name = "XV Symposium on Lactic Acid Bacteria"
+  event_url = "https://www.elsevier.com/events/conferences/all/labsymposium"
+  date = "2026-08"
+  presentation_type = "Invited speaker"
+  presentation_title = "From genotype to phenotype:Predicting microbial traits in the food industry"
 
 [[item]]
-  organization = "Finse, Norway"
-  title = "Reconstruction Workshop for Genome-Scale Modeling of Fish"
-  url = ""
-  date_start = "2019-04-08"
-  description = "Invited speaker: _Version-controlled GEMs_"
+  location = "Paris, France"
+  latitude = 48.86
+  longitude = 2.35
+  event_name = "Lactic Acid Bacteria Industrial Platform Expert Workshop"
+  date = "2026-01"
+  presentation_type = "Invited speaker"
+  presentation_title = "From genotype to phenotype: predicting microbial traits in the food industry"
 
 [[item]]
-  organization = "Seattle, U.S.A."
-  title = "V Conference on Constraint-Based Reconstruction and Analysis (COBRA)"
-  url = "https://www.aiche.org/sbe/conferences/conference-on-constraint-based-reconstruction-and-analysis-cobra/2018"
-  date_start = "2018-10-14"
-  description = "Oral presentation: _yeast-GEM: reviving the consensus genome-scale model of S. cerevisiae as a standard in the community_"
+  location = "Potsdam, Germany"
+  latitude = 52.40
+  longitude = 13.06
+  event_name = "X Conference on Constraint-Based Reconstruction & Analysis"
+  event_url = "https://cobra2026.com/"
+  date = "2026-03"
+  presentation_type = "Poster"
+  presentation_title = "Genome-scale metabolic modeling for better fermented foods"
 
 [[item]]
-  organization = "Munich, Germany"
-  title = "XII Metabolic Engineering Conference (ME-12)"
-  url = "https://www.aiche.org/sbe/conferences/metabolic-engineering-conference/2018"
-  date_start = "2018-06-24"
-  description = "Poster presentation: _The Consensus Genome-Scale Model of Yeast & Constraints on Lipid Metabolism_"
+  location = "Egmond aan Zee, The Netherlands"
+  latitude = 52.62
+  longitude = 4.63
+  event_name = "14th Symposium on Lactic Acid Bacteria (LAB14)"
+  event_url = "https://www.labsymposium.org/"
+  date = "2023-08"
+  presentation_type = "Poster"
+  presentation_title = "Exploring Lactococcus strain diversity with the help of genome-scale metabolic modeling"
 
 [[item]]
-  organization = "Wailea, U.S.A."
-  title = "VI Winter Quantitative Biology Conference (Q-Bio)"
-  url = "https://w-qbio.org/2018/"
-  date_start = "2018-02-22"
-  description = "Poster presentation: _Enzyme usage in yeast during stress_"
+  location = "Finse, Norway"
+  latitude = 60.60
+  longitude = 7.50
+  event_name = "Reconstruction Workshop for Genome-Scale Modeling of Fish"
+  event_url = ""
+  date = "2019-04"
+  presentation_type = "Invited speaker"
+  presentation_title = "Version-controlled GEMs"
 
 [[item]]
-  organization = "Lyngby, Denmark"
-  title = "Center for Biosustainability (CfB) Annual Meeting"
-  url = "https://www.biosustain.dtu.dk/"
-  date_start = "2016-09-28"
-  description = "Oral presentation: _GECKO: Enhancing a genome-scale model with enzymatic constraints_"
+  location = "Seattle, U.S.A."
+  latitude = 47.61
+  longitude = -122.33
+  event_name = "V Conference on Constraint-Based Reconstruction and Analysis (COBRA)"
+  event_url = "https://www.aiche.org/sbe/conferences/conference-on-constraint-based-reconstruction-and-analysis-cobra/2018"
+  date = "2018-10"
+  presentation_type = "Oral"
+  presentation_title = "yeast-GEM: reviving the consensus genome-scale model of S. cerevisiae as a standard in the community"
 
 [[item]]
-  organization = "Barcelona, Spain"
-  title = "XVII International Conference on Systems Biology (ICSB)"
-  url = "https://ec.europa.eu/research/index.cfm?pg=events&eventcode=21DB903C-F5CF-497D-4083F667ED9790A6"
-  date_start = "2016-09-16"
-  description = "Poster presentation: _Yeast genome scale modeling with enzyme constraints_"
+  location = "Munich, Germany"
+  latitude = 48.14
+  longitude = 11.58
+  event_name = "XII Metabolic Engineering Conference (ME-12)"
+  event_url = "https://www.aiche.org/sbe/conferences/metabolic-engineering-conference/2018"
+  date = "2018-06"
+  presentation_type = "Poster"
+  presentation_title = "The consensus genome-scale model of yeast & constraints on lipid metabolism"
 
 [[item]]
-  organization = "Kobe, Japan"
-  title = "XI Metabolic Engineering Conference (ME-11)"
-  url = "https://www.aiche.org/sbe/conferences/metabolic-engineering-conference/2016"
-  date_start = "2016-06-26"
-  description = "Poster presentation: _How much is it? Predicting enzyme costs with a genome scale model of yeast: applications to metabolic engineering_"
+  location = "Wailea, U.S.A."
+  latitude = 20.69
+  longitude = -156.44
+  event_name = "VI Winter Quantitative Biology Conference (Q-Bio)"
+  event_url = "https://w-qbio.org/2018/"
+  date = "2018-02"
+  presentation_type = "Poster"
+  presentation_title = "Enzyme usage in yeast during stress"
 
 [[item]]
-  organization = "Heidelberg, Germany"
-  title = "IV Conference on Constraint-Based Reconstruction and Analysis (COBRA)"
-  url = "https://www.aiche.org/sbe/conferences/conference-on-constraint-based-reconstruction-and-analysis-cobra/2015"
-  date_start = "2015-09-16"
-  description = "Poster presentation: _Expanding a yeast genome scale model to account for enzymatic limitations_ (awarded 3rd prize in the poster competition)"
+  location = "Lyngby, Denmark"
+  latitude = 55.77
+  longitude = 12.50
+  event_name = "Center for Biosustainability (CfB) Annual Meeting"
+  event_url = "https://www.biosustain.dtu.dk/"
+  date = "2016-09"
+  presentation_type = "Oral"
+  presentation_title = "GECKO: Enhancing a genome-scale model with enzymatic constraints"
 
 [[item]]
-  organization = "Chania, Greece"
-  title = "XI International Conference on Pathways, Networks and Systems Medicine"
-  url = "https://www.aegeanconferences.org/src/App/conferences/view/98"
-  date_start = "2015-06-24"
-  description = "Poster presentation: _Reconciling proteomic data into genome scale models_"
+  location = "Barcelona, Spain"
+  latitude = 41.39
+  longitude = 2.17
+  event_name = "XVII International Conference on Systems Biology (ICSB)"
+  event_url = "https://ec.europa.eu/research/index.cfm?pg=events&eventcode=21DB903C-F5CF-497D-4083F667ED9790A6"
+  date = "2016-09"
+  presentation_type = "Poster"
+  presentation_title = "Yeast genome scale modeling with enzyme constraints"
 
 [[item]]
-  organization = "Olmué, Chile"
-  title = "LXXXII Meeting of the Chilean Mathematical Society"
-  url = "https://sites.google.com/a/u.uchile.cl/somachi2013/"
-  date_start = "2013-11-09"
-  description = "Oral presentation: _Reparametrización de un modelo dinámico del metabolismo celular de S. cerevisiae_"
+  location = "Kobe, Japan"
+  latitude = 34.69
+  longitude = 135.20
+  event_name = "XI Metabolic Engineering Conference (ME-11)"
+  event_url = "https://www.aiche.org/sbe/conferences/metabolic-engineering-conference/2016"
+  date = "2016-06"
+  presentation_type = "Poster"
+  presentation_title = "How much is it? Predicting enzyme costs with a genome scale model of yeast: applications to metabolic engineering"
 
 [[item]]
-  organization = "Hillerød, Denmark"
-  title = "I Cell Factories and Biosustainability Conference"
-  url = "https://cph-bioscience.com/en/events/cell-factories-biosustainability-1"
-  date_start = "2013-05-05"
-  description = "Poster presentation: _Reparameterization analysis of a S. cerevisiae dynamic genome-scaled metabolic model_"
+  location = "Heidelberg, Germany"
+  latitude = 49.40
+  longitude = 8.69
+  event_name = "IV Conference on Constraint-Based Reconstruction and Analysis (COBRA)"
+  event_url = "https://www.aiche.org/sbe/conferences/conference-on-constraint-based-reconstruction-and-analysis-cobra/2015"
+  date = "2015-09"
+  presentation_type = "Poster"
+  presentation_title = "Expanding a yeast genome scale model to account for enzymatic limitations (awarded 3rd prize in the poster competition)"
 
 [[item]]
-  organization = "Santiago, Chile"
-  title = "VI Chilean Conference of Chemical Engineering Students"
-  url = "http://ingenieria.uchile.cl/vi_coneiq_2012_quotingenier_a_qu_mica_desaf_os_y_oportunidades_en_la_zona_centralquot"
-  date_start = "2012-10-23"
-  description = "Oral presentation: _Procedimiento iterativo heurístico de reparametrización de modelos dinámicos en procesos químicos y biológicos_"
+  location = "Chania, Greece"
+  latitude = 35.51
+  longitude = 24.02
+  event_name = "XI International Conference on Pathways, Networks and Systems Medicine"
+  event_url = "https://www.aegeanconferences.org/src/App/conferences/view/98"
+  date = "2015-06"
+  presentation_type = "Poster"
+  presentation_title = "Reconciling proteomic data into genome scale models"
 
 [[item]]
-  organization = "Antofagasta, Chile"
-  title = "VII Chilean Meeting of Biotechnology Engineering Students"
-  url = "https://issuu.com/iconeib2012/docs/libro_de_resumenes_iconeib_2012_antofagasta_chile"
-  date_start = "2012-10-17"
-  description = "Poster presentation: _Modelación metabólica dinámica a escala genómica para la producción de terpenos en S. cerevisiae_"
+  location = "Olmué, Chile"
+  latitude = -32.99
+  longitude = -71.19
+  event_name = "LXXXII Meeting of the Chilean Mathematical Society"
+  event_url = "https://sites.google.com/a/u.uchile.cl/somachi2013/"
+  date = "2013-11"
+  presentation_type = "Oral"
+  presentation_title = "Reparametrización de un modelo dinámico del metabolismo celular de S. cerevisiae"
 
 [[item]]
-  organization = "Santiago, Chile"
-  title = "XXV Interamerican Conference of Chemical Engineering"
-  url = "https://www.cmcevent.com/portafolio/xxv-congreso-interamericano-de-ingenieria-quimica-y-xviii-congreso-chileno-de-ingenieria-quimica/?lang=en"
-  date_start = "2011-11-14"
-  description = "Poster presentation: _Técnicas para el estudio de la diferenciación celular en progenitores musculares adultos: aplicaciones a la ingeniería de tejidos y proyecciones_"
+  location = "Hillerød, Denmark"
+  latitude = 55.93
+  longitude = 12.30
+  event_name = "I Cell Factories and Biosustainability Conference"
+  event_url = "https://cph-bioscience.com/en/events/cell-factories-biosustainability-1"
+  date = "2013-05"
+  presentation_type = "Poster"
+  presentation_title = "Reparameterization analysis of a S. cerevisiae dynamic genome-scaled metabolic model"
 
 [[item]]
-  organization = "Viña del Mar, Chile"
-  title = "VI Chilean Meeting of Biotechnology Engineering Students"
-  url = "http://biotecuchile.blogspot.com/2011/04/sobre-vi-eneib-ano-2011.html"
-  date_start = "2011-08-23"
-  description = "Oral presentation: _Estudio de la Diferenciación de Células Progenitoras Musculares y proyecciones para la Ingeniería de Tejidos_"
+  location = "Santiago, Chile"
+  latitude = -33.45
+  longitude = -70.67
+  event_name = "VI Chilean Conference of Chemical Engineering Students"
+  event_url = "http://ingenieria.uchile.cl/vi_coneiq_2012_quotingenier_a_qu_mica_desaf_os_y_oportunidades_en_la_zona_centralquot"
+  date = "2012-10"
+  presentation_type = "Oral"
+  presentation_title = "Procedimiento iterativo heurístico de reparametrización de modelos dinámicos en procesos químicos y biológicos"
+
+[[item]]
+  location = "Antofagasta, Chile"
+  latitude = -23.65
+  longitude = -70.40
+  event_name = "VII Chilean Meeting of Biotechnology Engineering Students"
+  event_url = "https://issuu.com/iconeib2012/docs/libro_de_resumenes_iconeib_2012_antofagasta_chile"
+  date = "2012-10"
+  presentation_type = "Poster"
+  presentation_title = "Modelación metabólica dinámica a escala genómica para la producción de terpenos en S. cerevisiae"
+
+[[item]]
+  location = "Santiago, Chile"
+  latitude = -33.45
+  longitude = -70.67
+  event_name = "XXV Interamerican Conference of Chemical Engineering"
+  event_url = "https://www.cmcevent.com/portafolio/xxv-congreso-interamericano-de-ingenieria-quimica-y-xviii-congreso-chileno-de-ingenieria-quimica/?lang=en"
+  date = "2011-11"
+  presentation_type = "Poster"
+  presentation_title = "Técnicas para el estudio de la diferenciación celular en progenitores musculares adultos: aplicaciones a la ingeniería de tejidos y proyecciones"
+
+[[item]]
+  location = "Viña del Mar, Chile"
+  latitude = -33.02
+  longitude = -71.55
+  event_name = "VI Chilean Meeting of Biotechnology Engineering Students"
+  event_url = "http://biotecuchile.blogspot.com/2011/04/sobre-vi-eneib-ano-2011.html"
+  date = "2011-08"
+  presentation_type = "Oral"
+  presentation_title = "Estudio de la diferenciación de células progenitoras musculares y proyecciones para la ingeniería de tejidos"
 
 +++

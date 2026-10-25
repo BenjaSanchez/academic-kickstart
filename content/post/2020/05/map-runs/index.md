@@ -92,7 +92,7 @@ Knowing the areas I had not been to, I was then able to plan pre-run where would
 
 {{< figure src="fig4.png" title="**Full world map with all runs (note the tiny red spots)**" lightbox="true" >}}
 
-However, the final challenge was that as new run logs would come in, I needed a way to keep the map updated. I'm a sucker for automation, so I added all `.gpx` files + scripts to [this](https://github.com/BenjaSanchez/map-runs) Github repo, and I set up [Travis CI](https://travis-ci.org/) to update the map every time I add new runs. Now the only thing I need to do every 3 months (when my [Trello](https://trello.com/) board reminds me) is to download all new `.gpx` files to the proper folder and commit + push the files to Github. Travis will then run the script to create the latest map and publish it [here](https://benjasanchez.github.io/map-runs/output-map.html).
+However, the final challenge was that as new run logs would come in, I needed a way to keep the map updated. I'm a sucker for automation, so I added all `.gpx` files + scripts to [this](https://github.com/BenjaSanchez/map-runs) GitHub repo, and I set up [Travis CI](https://travis-ci.org/) to update the map every time I add new runs. Now the only thing I need to do every 3 months (when my [Trello](https://trello.com/) board reminds me) is to download all new `.gpx` files to the proper folder and commit + push the files to GitHub. Travis will then run the script to create the latest map and publish it [here](https://benjasanchez.github.io/map-runs/output-map.html).
 
 ## **Final Words**
 

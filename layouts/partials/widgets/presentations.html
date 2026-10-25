@@ -1,0 +1,239 @@
+{{ $page := .page }}
+{{ $presentations := slice }}
+{{ range $page.Params.item }}
+  {{ $date := time (printf "%s-01" .date) }}
+  {{ $presentations = $presentations | append (dict
+    "location" .location
+    "latitude" (float .latitude)
+    "longitude" (float .longitude)
+    "event_name" .event_name
+    "date" ($date.Format ($page.Params.date_format | default "Jan 2006"))
+    "year" ($date.Format "2006")
+    "type" .presentation_type
+    "presentation_title" .presentation_title
+    "event_url" .event_url
+  ) }}
+{{ end }}
+
+<div class="row">
+  <div class="col-12 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+</div>
+<div class="presentation-map-controls">
+  <div class="presentation-map-filter">
+    <select id="presentations-year" class="form-control" aria-label="Select presentation year">
+      <option value="all">Select year</option>
+    </select>
+  </div>
+  <div class="presentation-map-legend" aria-label="Presentation types">
+    <span><i class="presentation-map-legend__pin presentation-map-legend__pin--default" aria-hidden="true"></i>Poster</span>
+    <span><i class="presentation-map-legend__pin presentation-map-legend__pin--oral" aria-hidden="true"></i>Oral presentation</span>
+    <span><i class="presentation-map-legend__pin presentation-map-legend__pin--invited" aria-hidden="true"></i>Invited speaker</span>
+  </div>
+</div>
+<div id="presentations-map" role="region" aria-label="Map of presentation locations"></div>
+<script id="presentations-map-data" type="application/json">{{ $presentations | jsonify | safeJS }}</script>
+<style>
+  #presentations-map { width: 100%; height: min(65vh, 560px); min-height: 380px; border-radius: 6px; }
+  .presentation-map-tooltip {
+    width: min(440px, calc(100vw - 48px));
+    max-width: 440px;
+    padding: 12px 14px;
+    white-space: normal;
+  }
+  .presentation-map-tooltip .presentation-map__place { display: block; margin-bottom: 6px; font-weight: 700; font-size: calc(1em + 1pt); }
+  .presentation-map-tooltip .presentation-map__event + .presentation-map__event { margin-top: 8px; padding-top: 8px; border-top: 1px solid #ddd; }
+  .presentation-map-tooltip .presentation-map__date,
+  .presentation-map-tooltip .presentation-map__description { display: block; color: #666; font-size: calc(.85em + 1pt); }
+  .presentation-map-tooltip .presentation-map__title { display: block; font-weight: 600; font-size: calc(1em + 1pt); }
+  .presentation-map-controls { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px 24px; margin-bottom: 12px; }
+  .presentation-map-filter { width: min(260px, 100%); }
+  #presentations-year {
+    padding-right: 2.5rem;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='m1 1 5 5 5-5' fill='none' stroke='%235d6670' stroke-width='1.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 12px 8px;
+  }
+  .dark #presentations-year { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='m1 1 5 5 5-5' fill='none' stroke='%23f8f8f2' stroke-width='1.5'/%3E%3C/svg%3E"); }
+  .presentation-map-legend { display: flex; flex-wrap: wrap; gap: 16px; font-size: .9em; }
+  .presentation-map-legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .presentation-map-legend__pin { position: relative; display: inline-block; width: 14px; height: 14px; border: 2px solid #fff; border-radius: 50% 50% 50% 0; box-shadow: 0 1px 4px #24445b66; transform: rotate(-45deg); }
+  .presentation-map-legend__pin::after { position: absolute; top: 3px; left: 3px; width: 4px; height: 4px; border-radius: 50%; background: #fff; content: ""; }
+  .presentation-map-legend__pin--default { background: #3388ff; }
+  .presentation-map-legend__pin--oral { background: #2e9d55; }
+  .presentation-map-legend__pin--invited { background: #d9ae22; }
+  .presentation-marker--oral { filter: hue-rotate(-80deg) saturate(1.25); }
+  .presentation-marker--invited { filter: hue-rotate(-165deg) saturate(1.25); }
+  .presentation-map-tooltip .presentation-map__type { display: block; margin: 2px 0; color: #666; font-size: calc(.85em + 1pt); font-weight: 600; }
+  .presentation-map-tooltip .presentation-map__type--poster { color: #3388ff; }
+  .presentation-map-tooltip .presentation-map__type--oral { color: #237a41; }
+  .presentation-map-tooltip .presentation-map__type--invited-speaker { color: #947000; }
+</style>
+<script>
+  (function () {
+    function initializePresentationsMap() {
+      var mapElement = document.getElementById('presentations-map');
+      var dataElement = document.getElementById('presentations-map-data');
+      if (!mapElement || !dataElement || typeof L === 'undefined') return;
+
+      var presentations = JSON.parse(dataElement.textContent);
+      var yearSelect = document.getElementById('presentations-year');
+      var years = Array.from(new Set(presentations.map(function (presentation) { return presentation.year; })))
+        .sort(function (a, b) { return Number(b) - Number(a); });
+      years.forEach(function (year) {
+        var option = document.createElement('option');
+        option.value = year;
+        option.textContent = year;
+        yearSelect.appendChild(option);
+      });
+
+      var locations = new Map();
+      presentations.forEach(function (presentation) {
+        var key = presentation.location || presentation.latitude + ',' + presentation.longitude;
+        if (!locations.has(key)) {
+          locations.set(key, { latitude: presentation.latitude, longitude: presentation.longitude, presentations: [] });
+        }
+        locations.get(key).presentations.push(presentation);
+      });
+
+      var map = L.map(mapElement, { scrollWheelZoom: false });
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      }).addTo(map);
+
+      var bounds = [];
+      locations.forEach(function (location) {
+        bounds.push([location.latitude, location.longitude]);
+      });
+
+      var markerLayer = L.layerGroup().addTo(map);
+      function renderMarkers(selectedYear) {
+        markerLayer.clearLayers();
+        locations.forEach(function (location, name) {
+          var visiblePresentations = selectedYear === 'all'
+            ? location.presentations
+            : location.presentations.filter(function (presentation) { return presentation.year === selectedYear; });
+          if (!visiblePresentations.length) return;
+
+          var content = document.createElement('div');
+          var place = document.createElement('strong');
+          place.className = 'presentation-map__place';
+          place.textContent = 'Location: ' + name;
+          content.appendChild(place);
+
+          visiblePresentations.forEach(function (presentation) {
+            var event = document.createElement('div');
+            event.className = 'presentation-map__event';
+
+            var title = document.createElement(presentation.event_url ? 'a' : 'span');
+            title.className = 'presentation-map__title';
+            title.textContent = presentation.event_name;
+            if (presentation.event_url && /^https?:\/\//i.test(presentation.event_url)) {
+              title.href = presentation.event_url;
+              title.target = '_blank';
+              title.rel = 'noopener';
+            }
+            event.appendChild(title);
+
+            var date = document.createElement('span');
+            date.className = 'presentation-map__date';
+            date.textContent = presentation.date;
+            event.appendChild(date);
+
+            var type = document.createElement('span');
+            var presentationType = presentation.type || 'Poster';
+            var typeClass = presentationType.toLowerCase().replace(/\s+/g, '-');
+            type.className = 'presentation-map__type presentation-map__type--' + typeClass;
+            type.textContent = typeClass === 'oral' ? 'Oral presentation' : presentationType;
+            event.appendChild(type);
+
+            if (presentation.presentation_title) {
+              var description = document.createElement('span');
+              description.className = 'presentation-map__description';
+              description.appendChild(document.createTextNode('Title: '));
+            var cleanDescription = presentation.presentation_title
+                .normalize('NFKD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .replace(/[^\x20-\x7E]/g, ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
+              cleanDescription.split(/(\bLactococcus\b|\bS\.\s*cerevisiae\b)/g).forEach(function (part) {
+                if (/^(Lactococcus|S\.\s*cerevisiae)$/.test(part)) {
+                  var species = document.createElement('em');
+                  species.textContent = part;
+                  description.appendChild(species);
+                } else {
+                  description.appendChild(document.createTextNode(part));
+                }
+              });
+              event.appendChild(description);
+            }
+            content.appendChild(event);
+          });
+
+          var point = [location.latitude, location.longitude];
+          var isInvitedSpeaker = visiblePresentations.some(function (presentation) {
+            return (presentation.type || '').toLowerCase() === 'invited speaker';
+          });
+          var isOral = visiblePresentations.some(function (presentation) {
+            return (presentation.type || '').toLowerCase() === 'oral';
+          });
+          var markerClass = isInvitedSpeaker ? 'invited' : (isOral ? 'oral' : '');
+          var markerOptions = markerClass ? { icon: new L.Icon.Default({ className: 'presentation-marker--' + markerClass }) } : {};
+          var marker = L.marker(point, markerOptions).addTo(markerLayer);
+          var popupPinned = false;
+          var popupCloseTimer;
+          marker.on('mouseover', function () {
+            window.clearTimeout(popupCloseTimer);
+            marker.openPopup();
+          });
+          marker.on('mouseout', function (event) {
+            if (popupPinned) return;
+            var popupElement = marker.getPopup() && marker.getPopup().getElement();
+            if (popupElement && event.originalEvent && popupElement.contains(event.originalEvent.relatedTarget)) return;
+            popupCloseTimer = window.setTimeout(function () {
+              var openPopup = marker.getPopup() && marker.getPopup().getElement();
+              if (!popupPinned && (!openPopup || !openPopup.matches(':hover'))) marker.closePopup();
+            }, 150);
+          });
+          marker.on('click', function () {
+            window.clearTimeout(popupCloseTimer);
+            popupPinned = true;
+            marker.openPopup();
+          });
+          marker.on('popupopen', function (event) {
+            var popupElement = event.popup.getElement();
+            popupElement.addEventListener('mouseenter', function () { window.clearTimeout(popupCloseTimer); });
+            popupElement.addEventListener('mouseleave', function () {
+              if (!popupPinned) marker.closePopup();
+            });
+          });
+          marker.on('popupclose', function () {
+            popupPinned = false;
+          });
+          marker.bindPopup(content, {
+            maxWidth: 440,
+            className: 'presentation-map-tooltip',
+            autoPan: true
+          });
+        });
+      }
+
+      renderMarkers('all');
+      yearSelect.addEventListener('change', function () { renderMarkers(yearSelect.value); });
+      if (bounds.length) map.fitBounds(bounds, { padding: [28, 28], maxZoom: 4 });
+      else map.setView([20, 0], 2);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializePresentationsMap);
+    } else {
+      initializePresentationsMap();
+    }
+  })();
+</script>

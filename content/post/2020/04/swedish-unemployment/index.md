@@ -96,7 +96,7 @@ A decision will be made after a few days (even though they warn it can take up t
 
 ## **Part 4: Apply for supplementary money at your union (days 45 onward)**
 
-As soon as the TSN supplement runs out (or from day 1 in case you had a contract shorter than 3 years), you can apply at your specific union for continuing the top-up supplement. As I am an engineer, I used [Sveriges Ingenjörer](https://www.sverigesingenjorer.se/) (note that they require you to have been a member with them for at least 18 months). You can apply by just completing the [application formulary](https://www.inkomstforsakring.com/sverigesingenjorer/tillaggsforsakringar/tillaggsforsakringtid/teckna), they should reply back via email. Additional information is available [here](https://www.inkomstforsakring.com/sverigesingenjorer/english/supplementary).
+As soon as the TSN supplement runs out (or from day 1 in case you had a contract shorter than 3 years), you can apply at your specific union for continuing the top-up supplement. As I am an engineer, I used [Sveriges Ingenjörer](https://www.sverigesingenjorer.se/) (note that they require you to have been a member with them for at least 18 months). You can apply by just completing the [application form](https://www.inkomstforsakring.com/sverigesingenjorer/tillaggsforsakringar/tillaggsforsakringtid/teckna), they should reply back via email. Additional information is available [here](https://www.inkomstforsakring.com/sverigesingenjorer/english/supplementary).
 
 ## **Final words**
 
