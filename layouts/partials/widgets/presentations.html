@@ -6,12 +6,12 @@
     "location" .location
     "latitude" (float .latitude)
     "longitude" (float .longitude)
-    "title" .title
+    "event_name" .event_name
     "date" ($date.Format ($page.Params.date_format | default "Jan 2006"))
     "year" ($date.Format "2006")
     "type" .presentation_type
-    "description" .description
-    "url" .url
+    "presentation_title" .presentation_title
+    "event_url" .event_url
   ) }}
 {{ end }}
 
@@ -141,20 +141,21 @@
             date.textContent = presentation.date;
             event.appendChild(date);
 
-            var title = document.createElement(presentation.url ? 'a' : 'span');
+          var title = document.createElement(presentation.event_url ? 'a' : 'span');
             title.className = 'presentation-map__title';
-            title.textContent = presentation.title;
-            if (presentation.url && /^https?:\/\//i.test(presentation.url)) {
-              title.href = presentation.url;
+          title.textContent = presentation.event_name;
+          if (presentation.event_url && /^https?:\/\//i.test(presentation.event_url)) {
+            title.href = presentation.event_url;
               title.target = '_blank';
               title.rel = 'noopener';
             }
             event.appendChild(title);
 
-            if (presentation.description) {
+          if (presentation.presentation_title) {
               var description = document.createElement('span');
               description.className = 'presentation-map__description';
-              var cleanDescription = presentation.description
+              description.appendChild(document.createTextNode('Title: '));
+            var cleanDescription = presentation.presentation_title
                 .normalize('NFKD')
                 .replace(/[\u0300-\u036f]/g, '')
                 .replace(/[^\x20-\x7E]/g, ' ')
