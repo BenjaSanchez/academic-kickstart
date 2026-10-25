@@ -14,14 +14,13 @@ date_format = "Jan 2006"
 
 # Presentations.
 #   Add/remove as many `[[item]]` blocks below as you like.
-#   `title`, `organization`, `date` and `presentation_type` are required.
-#   Also set `map_location` (unique place name), `latitude` and `longitude` for the map.
+#   `title`, `location`, `date` and `presentation_type` are required.
+#   Also set `latitude` and `longitude` for the map.
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Egmond, Netherlands"
-  map_location = "Egmond aan Zee"
+  location = "Egmond aan Zee, The Netherlands"
   latitude = 52.62
   longitude = 4.63
   title = "XV Symposium on Lactic Acid Bacteria"
@@ -31,8 +30,7 @@ date_format = "Jan 2006"
   description = "From genotype to phenotype:Predicting microbial traits in the food industry"
 
 [[item]]
-  organization = "Paris, France"
-  map_location = "Paris"
+  location = "Paris, France"
   latitude = 48.86
   longitude = 2.35
   title = "Lactic Acid Bacteria Industrial Platform Expert Workshop"
@@ -41,8 +39,7 @@ date_format = "Jan 2006"
   description = "From genotype to phenotype: predicting microbial traits in the food industry"
 
 [[item]]
-  organization = "Potsdam, Germany"
-  map_location = "Potsdam"
+  location = "Potsdam, Germany"
   latitude = 52.40
   longitude = 13.06
   title = "X Conference on Constraint-Based Reconstruction & Analysis"
@@ -52,8 +49,7 @@ date_format = "Jan 2006"
   description = "Genome-scale metabolic modeling for better fermented foods"
 
 [[item]]
-  organization = "Egmond an Zee, The Netherlands"
-  map_location = "Egmond aan Zee"
+  location = "Egmond aan Zee, The Netherlands"
   latitude = 52.62
   longitude = 4.63
   title = "14th Symposium on Lactic Acid Bacteria (LAB14)"
@@ -63,8 +59,7 @@ date_format = "Jan 2006"
   description = "Exploring Lactococcus strain diversity with the help of genome-scale metabolic modeling"
 
 [[item]]
-  organization = "Finse, Norway"
-  map_location = "Finse"
+  location = "Finse, Norway"
   latitude = 60.60
   longitude = 7.50
   title = "Reconstruction Workshop for Genome-Scale Modeling of Fish"
@@ -74,8 +69,7 @@ date_format = "Jan 2006"
   description = "Version-controlled GEMs"
 
 [[item]]
-  organization = "Seattle, U.S.A."
-  map_location = "Seattle"
+  location = "Seattle, U.S.A."
   latitude = 47.61
   longitude = -122.33
   title = "V Conference on Constraint-Based Reconstruction and Analysis (COBRA)"
@@ -85,8 +79,7 @@ date_format = "Jan 2006"
   description = "yeast-GEM: reviving the consensus genome-scale model of S. cerevisiae as a standard in the community"
 
 [[item]]
-  organization = "Munich, Germany"
-  map_location = "Munich"
+  location = "Munich, Germany"
   latitude = 48.14
   longitude = 11.58
   title = "XII Metabolic Engineering Conference (ME-12)"
@@ -96,8 +89,7 @@ date_format = "Jan 2006"
   description = "The Consensus Genome-Scale Model of Yeast & Constraints on Lipid Metabolism"
 
 [[item]]
-  organization = "Wailea, U.S.A."
-  map_location = "Wailea"
+  location = "Wailea, U.S.A."
   latitude = 20.69
   longitude = -156.44
   title = "VI Winter Quantitative Biology Conference (Q-Bio)"
@@ -107,8 +99,7 @@ date_format = "Jan 2006"
   description = "Enzyme usage in yeast during stress"
 
 [[item]]
-  organization = "Lyngby, Denmark"
-  map_location = "Lyngby"
+  location = "Lyngby, Denmark"
   latitude = 55.77
   longitude = 12.50
   title = "Center for Biosustainability (CfB) Annual Meeting"
@@ -118,8 +109,7 @@ date_format = "Jan 2006"
   description = "GECKO: Enhancing a genome-scale model with enzymatic constraints"
 
 [[item]]
-  organization = "Barcelona, Spain"
-  map_location = "Barcelona"
+  location = "Barcelona, Spain"
   latitude = 41.39
   longitude = 2.17
   title = "XVII International Conference on Systems Biology (ICSB)"
@@ -129,8 +119,7 @@ date_format = "Jan 2006"
   description = "Yeast genome scale modeling with enzyme constraints"
 
 [[item]]
-  organization = "Kobe, Japan"
-  map_location = "Kobe"
+  location = "Kobe, Japan"
   latitude = 34.69
   longitude = 135.20
   title = "XI Metabolic Engineering Conference (ME-11)"
@@ -140,8 +129,7 @@ date_format = "Jan 2006"
   description = "How much is it? Predicting enzyme costs with a genome scale model of yeast: applications to metabolic engineering"
 
 [[item]]
-  organization = "Heidelberg, Germany"
-  map_location = "Heidelberg"
+  location = "Heidelberg, Germany"
   latitude = 49.40
   longitude = 8.69
   title = "IV Conference on Constraint-Based Reconstruction and Analysis (COBRA)"
@@ -151,8 +139,7 @@ date_format = "Jan 2006"
   description = "Expanding a yeast genome scale model to account for enzymatic limitations (awarded 3rd prize in the poster competition)"
 
 [[item]]
-  organization = "Chania, Greece"
-  map_location = "Chania"
+  location = "Chania, Greece"
   latitude = 35.51
   longitude = 24.02
   title = "XI International Conference on Pathways, Networks and Systems Medicine"
@@ -162,8 +149,7 @@ date_format = "Jan 2006"
   description = "Reconciling proteomic data into genome scale models"
 
 [[item]]
-  organization = "Olmué, Chile"
-  map_location = "Olmué"
+  location = "Olmué, Chile"
   latitude = -32.99
   longitude = -71.19
   title = "LXXXII Meeting of the Chilean Mathematical Society"
@@ -173,8 +159,7 @@ date_format = "Jan 2006"
   description = "Reparametrización de un modelo dinámico del metabolismo celular de S. cerevisiae"
 
 [[item]]
-  organization = "Hillerød, Denmark"
-  map_location = "Hillerød"
+  location = "Hillerød, Denmark"
   latitude = 55.93
   longitude = 12.30
   title = "I Cell Factories and Biosustainability Conference"
@@ -184,8 +169,7 @@ date_format = "Jan 2006"
   description = "Reparameterization analysis of a S. cerevisiae dynamic genome-scaled metabolic model"
 
 [[item]]
-  organization = "Santiago, Chile"
-  map_location = "Santiago"
+  location = "Santiago, Chile"
   latitude = -33.45
   longitude = -70.67
   title = "VI Chilean Conference of Chemical Engineering Students"
@@ -195,8 +179,7 @@ date_format = "Jan 2006"
   description = "Procedimiento iterativo heurístico de reparametrización de modelos dinámicos en procesos químicos y biológicos"
 
 [[item]]
-  organization = "Antofagasta, Chile"
-  map_location = "Antofagasta"
+  location = "Antofagasta, Chile"
   latitude = -23.65
   longitude = -70.40
   title = "VII Chilean Meeting of Biotechnology Engineering Students"
@@ -206,8 +189,7 @@ date_format = "Jan 2006"
   description = "Modelación metabólica dinámica a escala genómica para la producción de terpenos en S. cerevisiae"
 
 [[item]]
-  organization = "Santiago, Chile"
-  map_location = "Santiago"
+  location = "Santiago, Chile"
   latitude = -33.45
   longitude = -70.67
   title = "XXV Interamerican Conference of Chemical Engineering"
@@ -217,8 +199,7 @@ date_format = "Jan 2006"
   description = "Técnicas para el estudio de la diferenciación celular en progenitores musculares adultos: aplicaciones a la ingeniería de tejidos y proyecciones"
 
 [[item]]
-  organization = "Viña del Mar, Chile"
-  map_location = "Viña del Mar"
+  location = "Viña del Mar, Chile"
   latitude = -33.02
   longitude = -71.55
   title = "VI Chilean Meeting of Biotechnology Engineering Students"
