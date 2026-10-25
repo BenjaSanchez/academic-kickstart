@@ -1,0 +1,52 @@
+.pub h1,
+.article h1 {
+  font-size: 1.5rem;
+}
+
+body.dark a:not(.btn),
+.home-section.dark a:not(.btn),
+.dark .card h4 a,
+.dark .article-metadata a:hover,
+.dark .featurette-icon,
+.dark .tag-cloud a:active,
+.dark .tag-cloud a:focus,
+.dark .tag-cloud a:hover {
+  color: #8ab4f8;
+}
+
+.home-section.dark a:not(.btn):not(.hero-cta-alt):hover,
+.home-section.dark a:not(.btn):not(.hero-cta-alt):focus {
+  color: #8ab4f8;
+}
+
+.dark .navbar .navbar-nav .nav-link.active,
+.dark .navbar .dropdown-item.active,
+.dark .navbar .i18n-active {
+  color: #8ab4f8 !important;
+}
+
+.dark .btn-primary,
+.dark .btn.btn-primary.active {
+  color: #202124;
+  background-color: #8ab4f8;
+  border-color: #8ab4f8;
+}
+
+.dark .btn-outline-primary {
+  color: #8ab4f8;
+  border-color: #8ab4f8;
+}
+
+.dark .btn-outline-primary:hover,
+.dark .btn-outline-primary:focus,
+.dark .btn-outline-primary:active {
+  color: #202124;
+  background-color: #8ab4f8;
+  border-color: #8ab4f8;
+}
+
+.dark .form-control:focus,
+.dark input:focus {
+  border-color: #8ab4f8;
+  box-shadow: 0 0 0 .2rem rgba(138, 180, 248, .25);
+}
