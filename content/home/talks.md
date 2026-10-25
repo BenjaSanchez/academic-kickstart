@@ -20,6 +20,38 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Egmond, Netherlands"
+  map_location = "Egmond aan Zee"
+  latitude = 52.62
+  longitude = 4.63
+  title = "XV Symposium on Lactic Acid Bacteria"
+  url = "https://www.elsevier.com/events/conferences/all/labsymposium"
+  date_start = "2026-08-23"
+  presentation_type = "Invited speaker"
+  description = "From genotype to phenotype:Predicting microbial traits in the food industry"
+
+[[item]]
+  organization = "Paris, France"
+  map_location = "Paris"
+  latitude = 48.86
+  longitude = 2.35
+  title = "Lactic Acid Bacteria Industrial Platform Expert Workshop"
+  date_start = "2026-01-29"
+  presentation_type = "Invited speaker"
+  description = "From genotype to phenotype: predicting microbial traits in the food industry"
+
+[[item]]
+  organization = "Potsdam, Germany"
+  map_location = "Potsdam"
+  latitude = 52.40
+  longitude = 13.06
+  title = "X Conference on Constraint-Based Reconstruction & Analysis"
+  url = "https://cobra2026.com/"
+  date_start = "2026-03-17"
+  presentation_type = "Poster"
+  description = "Genome-scale metabolic modeling for better fermented foods"
+
+[[item]]
   organization = "Egmond an Zee, The Netherlands"
   map_location = "Egmond aan Zee"
   latitude = 52.62
