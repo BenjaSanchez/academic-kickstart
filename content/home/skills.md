@@ -17,37 +17,37 @@ subtitle = ""
 [[feature]]
   icon = "laptop-code"
   icon_pack = "fas"
-  name = "Programming Languages"
+  name = "Programming languages"
   description = "Python, R, Bash, Matlab"
 
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Mathematical Modeling"
-  description = "Stoichiometric Models, Kinetic Models, Network Analysis"
+  name = "Mathematical modeling"
+  description = "Stoichiometric models, kinetic models, network analysis, statistical modeling"
 
 [[feature]]
   icon = "git-alt"
   icon_pack = "fab"
-  name = "Software Development"
-  description = "Version Control, Continuous Integration, Containers"
+  name = "Software development"
+  description = "Version control, continuous integration, containers, app development"
 
 [[feature]]
   icon = "brain"
   icon_pack = "fas"
-  name = "Analysis of Big Data"
-  description = "Comparative Genomics, Proteomics, Transcriptomics, Kinetomics"
+  name = "Analysis of big data"
+  description = "Comparative genomics, proteomics, transcriptomics, kinetomics"
 
 [[feature]]
   icon = "flask"
   icon_pack = "fas"
-  name = "Lab Experience"
-  description = "Fermentation Science, HPLC, Cellular Biology"
+  name = "Lab experience"
+  description = "Fermentation science, HPLC, cellular biology"
 
 [[feature]]
   icon = "language"
   icon_pack = "fas"
-  name = "Spoken Languages"
+  name = "Spoken languages"
   description = "English (full proficiency), Danish (intermediate), Swedish (basic), Spanish (native speaker)"
 
 +++
