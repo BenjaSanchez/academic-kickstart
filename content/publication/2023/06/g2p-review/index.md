@@ -24,7 +24,7 @@ publication_types: ["2"]
 publication: "FEMS Microbiology Reviews"
 publication_short: ""
 
-abstract: "This was the first publication that I was a part of in my job as a scientist in Chr. Hansen (now Novonesis), a company that produces bacterial cultures for the food industry. Here we present a review of the main computational approaches for inferring phenotype from genotype. We divided all aproaches in 3 categories: knowledge-driven (where you build models from known mechanisms based on e.g. literature sources), data-driven (where you infer mechanisms from data using e.g. machine learning), and hybrid appraoches that combine both knowledge and data-driven aspects. I was in charge of compiling all these hybrid approaches, and it was a good oportunity for me to learn more about the state of the art of the field."
+abstract: "This was the first publication that I was a part of in my job as a scientist in Chr. Hansen (now Novonesis), a company that produces bacterial cultures for the food industry. Here we present a review of the main computational approaches for inferring phenotype from genotype. We divided all approaches in 3 categories: knowledge-driven (where you build models from known mechanisms based on e.g. literature sources), data-driven (where you infer mechanisms from data using e.g. machine learning), and hybrid approaches that combine both knowledge and data-driven aspects. I was in charge of compiling all these hybrid approaches, and it was a good opportunity for me to learn more about the state of the art of the field."
 
 # Summary. An optional shortened abstract.
 summary: "A review of knowledge and data-driven computational approaches used in biotech"

@@ -25,7 +25,7 @@ publication_types: ["2"]
 publication: "Nature Communications"
 publication_short: ""
 
-abstract: "This came from one of the collaborations I worked on during my PhD. We realized that there was no good multi-omic dataset to study _S. cerevisiae_, baker's yeast, at increasing growth rates, whilst limited in the main carbon source. So we created one, including transcriptomics, proteomics, phosphoproteomics, and metabolomics. I was involved in data analysis and computational simulations. This dataset allowed to find correlations across different omic levels between proteins belonging to main cellular processes, such as glycolisis, DNA replication, and amino acid biosynthesis. Additionally, as all the data was made publicly available, this wonderful dataset can be used as a basis for more systems-level studies in the future."
+abstract: "This came from one of the collaborations I worked on during my PhD. We realized that there was no good multi-omic dataset to study _S. cerevisiae_, baker's yeast, at increasing growth rates, whilst limited in the main carbon source. So we created one, including transcriptomics, proteomics, phosphoproteomics, and metabolomics. I was involved in data analysis and computational simulations. This dataset allowed to find correlations across different omic levels between proteins belonging to main cellular processes, such as glycolysis, DNA replication, and amino acid biosynthesis. Additionally, as all the data was made publicly available, this wonderful dataset can be used as a basis for more systems-level studies in the future."
 
 # Summary. An optional shortened abstract.
 summary: "A quantitative multi-omic dataset of _S. cerevisiae_ at increasing growth rates"
