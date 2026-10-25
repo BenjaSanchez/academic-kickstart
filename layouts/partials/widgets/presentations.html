@@ -1,14 +1,15 @@
 {{ $page := .page }}
 {{ $presentations := slice }}
 {{ range $page.Params.item }}
+  {{ $date := time (printf "%s-01" .date) }}
   {{ $presentations = $presentations | append (dict
     "location" .map_location
     "place" .organization
     "latitude" (float .latitude)
     "longitude" (float .longitude)
-    "title" (.title | markdownify | plainify)
-    "date" ((time .date_start).Format ($page.Params.date_format | default "Jan 2006"))
-    "year" ((time .date_start).Format "2006")
+    "title" .title
+    "date" ($date.Format ($page.Params.date_format | default "Jan 2006"))
+    "year" ($date.Format "2006")
     "type" .presentation_type
     "description" .description
     "url" .url

@@ -14,7 +14,7 @@ date_format = "Jan 2006"
 
 # Presentations.
 #   Add/remove as many `[[item]]` blocks below as you like.
-#   `title`, `organization`, `date_start` and `presentation_type` are required.
+#   `title`, `organization`, `date` and `presentation_type` are required.
 #   Also set `map_location` (unique place name), `latitude` and `longitude` for the map.
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   longitude = 4.63
   title = "XV Symposium on Lactic Acid Bacteria"
   url = "https://www.elsevier.com/events/conferences/all/labsymposium"
-  date_start = "2026-08-23"
+  date = "2026-08"
   presentation_type = "Invited speaker"
   description = "From genotype to phenotype:Predicting microbial traits in the food industry"
 
@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   latitude = 48.86
   longitude = 2.35
   title = "Lactic Acid Bacteria Industrial Platform Expert Workshop"
-  date_start = "2026-01-29"
+  date = "2026-01"
   presentation_type = "Invited speaker"
   description = "From genotype to phenotype: predicting microbial traits in the food industry"
 
@@ -47,7 +47,7 @@ date_format = "Jan 2006"
   longitude = 13.06
   title = "X Conference on Constraint-Based Reconstruction & Analysis"
   url = "https://cobra2026.com/"
-  date_start = "2026-03-17"
+  date = "2026-03"
   presentation_type = "Poster"
   description = "Genome-scale metabolic modeling for better fermented foods"
 
@@ -58,7 +58,7 @@ date_format = "Jan 2006"
   longitude = 4.63
   title = "14th Symposium on Lactic Acid Bacteria (LAB14)"
   url = "https://www.labsymposium.org/"
-  date_start = "2023-08-27"
+  date = "2023-08"
   presentation_type = "Poster"
   description = "Exploring Lactococcus strain diversity with the help of genome-scale metabolic modeling"
 
@@ -69,7 +69,7 @@ date_format = "Jan 2006"
   longitude = 7.50
   title = "Reconstruction Workshop for Genome-Scale Modeling of Fish"
   url = ""
-  date_start = "2019-04-08"
+  date = "2019-04"
   presentation_type = "Invited speaker"
   description = "Version-controlled GEMs"
 
@@ -80,7 +80,7 @@ date_format = "Jan 2006"
   longitude = -122.33
   title = "V Conference on Constraint-Based Reconstruction and Analysis (COBRA)"
   url = "https://www.aiche.org/sbe/conferences/conference-on-constraint-based-reconstruction-and-analysis-cobra/2018"
-  date_start = "2018-10-14"
+  date = "2018-10"
   presentation_type = "Oral"
   description = "yeast-GEM: reviving the consensus genome-scale model of S. cerevisiae as a standard in the community"
 
@@ -91,7 +91,7 @@ date_format = "Jan 2006"
   longitude = 11.58
   title = "XII Metabolic Engineering Conference (ME-12)"
   url = "https://www.aiche.org/sbe/conferences/metabolic-engineering-conference/2018"
-  date_start = "2018-06-24"
+  date = "2018-06"
   presentation_type = "Poster"
   description = "The Consensus Genome-Scale Model of Yeast & Constraints on Lipid Metabolism"
 
@@ -102,7 +102,7 @@ date_format = "Jan 2006"
   longitude = -156.44
   title = "VI Winter Quantitative Biology Conference (Q-Bio)"
   url = "https://w-qbio.org/2018/"
-  date_start = "2018-02-22"
+  date = "2018-02"
   presentation_type = "Poster"
   description = "Enzyme usage in yeast during stress"
 
@@ -113,7 +113,7 @@ date_format = "Jan 2006"
   longitude = 12.50
   title = "Center for Biosustainability (CfB) Annual Meeting"
   url = "https://www.biosustain.dtu.dk/"
-  date_start = "2016-09-28"
+  date = "2016-09"
   presentation_type = "Oral"
   description = "GECKO: Enhancing a genome-scale model with enzymatic constraints"
 
@@ -124,7 +124,7 @@ date_format = "Jan 2006"
   longitude = 2.17
   title = "XVII International Conference on Systems Biology (ICSB)"
   url = "https://ec.europa.eu/research/index.cfm?pg=events&eventcode=21DB903C-F5CF-497D-4083F667ED9790A6"
-  date_start = "2016-09-16"
+  date = "2016-09"
   presentation_type = "Poster"
   description = "Yeast genome scale modeling with enzyme constraints"
 
@@ -135,7 +135,7 @@ date_format = "Jan 2006"
   longitude = 135.20
   title = "XI Metabolic Engineering Conference (ME-11)"
   url = "https://www.aiche.org/sbe/conferences/metabolic-engineering-conference/2016"
-  date_start = "2016-06-26"
+  date = "2016-06"
   presentation_type = "Poster"
   description = "How much is it? Predicting enzyme costs with a genome scale model of yeast: applications to metabolic engineering"
 
@@ -146,7 +146,7 @@ date_format = "Jan 2006"
   longitude = 8.69
   title = "IV Conference on Constraint-Based Reconstruction and Analysis (COBRA)"
   url = "https://www.aiche.org/sbe/conferences/conference-on-constraint-based-reconstruction-and-analysis-cobra/2015"
-  date_start = "2015-09-16"
+  date = "2015-09"
   presentation_type = "Poster"
   description = "Expanding a yeast genome scale model to account for enzymatic limitations (awarded 3rd prize in the poster competition)"
 
@@ -157,7 +157,7 @@ date_format = "Jan 2006"
   longitude = 24.02
   title = "XI International Conference on Pathways, Networks and Systems Medicine"
   url = "https://www.aegeanconferences.org/src/App/conferences/view/98"
-  date_start = "2015-06-24"
+  date = "2015-06"
   presentation_type = "Poster"
   description = "Reconciling proteomic data into genome scale models"
 
@@ -168,7 +168,7 @@ date_format = "Jan 2006"
   longitude = -71.19
   title = "LXXXII Meeting of the Chilean Mathematical Society"
   url = "https://sites.google.com/a/u.uchile.cl/somachi2013/"
-  date_start = "2013-11-09"
+  date = "2013-11"
   presentation_type = "Oral"
   description = "Reparametrización de un modelo dinámico del metabolismo celular de S. cerevisiae"
 
@@ -179,7 +179,7 @@ date_format = "Jan 2006"
   longitude = 12.30
   title = "I Cell Factories and Biosustainability Conference"
   url = "https://cph-bioscience.com/en/events/cell-factories-biosustainability-1"
-  date_start = "2013-05-05"
+  date = "2013-05"
   presentation_type = "Poster"
   description = "Reparameterization analysis of a S. cerevisiae dynamic genome-scaled metabolic model"
 
@@ -190,7 +190,7 @@ date_format = "Jan 2006"
   longitude = -70.67
   title = "VI Chilean Conference of Chemical Engineering Students"
   url = "http://ingenieria.uchile.cl/vi_coneiq_2012_quotingenier_a_qu_mica_desaf_os_y_oportunidades_en_la_zona_centralquot"
-  date_start = "2012-10-23"
+  date = "2012-10"
   presentation_type = "Oral"
   description = "Procedimiento iterativo heurístico de reparametrización de modelos dinámicos en procesos químicos y biológicos"
 
@@ -201,7 +201,7 @@ date_format = "Jan 2006"
   longitude = -70.40
   title = "VII Chilean Meeting of Biotechnology Engineering Students"
   url = "https://issuu.com/iconeib2012/docs/libro_de_resumenes_iconeib_2012_antofagasta_chile"
-  date_start = "2012-10-17"
+  date = "2012-10"
   presentation_type = "Poster"
   description = "Modelación metabólica dinámica a escala genómica para la producción de terpenos en S. cerevisiae"
 
@@ -212,7 +212,7 @@ date_format = "Jan 2006"
   longitude = -70.67
   title = "XXV Interamerican Conference of Chemical Engineering"
   url = "https://www.cmcevent.com/portafolio/xxv-congreso-interamericano-de-ingenieria-quimica-y-xviii-congreso-chileno-de-ingenieria-quimica/?lang=en"
-  date_start = "2011-11-14"
+  date = "2011-11"
   presentation_type = "Poster"
   description = "Técnicas para el estudio de la diferenciación celular en progenitores musculares adultos: aplicaciones a la ingeniería de tejidos y proyecciones"
 
@@ -223,7 +223,7 @@ date_format = "Jan 2006"
   longitude = -71.55
   title = "VI Chilean Meeting of Biotechnology Engineering Students"
   url = "http://biotecuchile.blogspot.com/2011/04/sobre-vi-eneib-ano-2011.html"
-  date_start = "2011-08-23"
+  date = "2011-08"
   presentation_type = "Oral"
   description = "Estudio de la Diferenciación de Células Progenitoras Musculares y proyecciones para la Ingeniería de Tejidos"
 
